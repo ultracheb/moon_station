@@ -1,0 +1,6 @@
+2016-12-24 01:35:46.426 +0300 [info] [] Start
+2016-12-24 01:36:26.511 +0300 [error] [monitor_io] bq_sleep: Operation canceled
+2016-12-24 01:36:26.511 +0300 [error] [phantom_logger] bq_sleep: Operation canceled
+2016-12-24 01:36:26.511 +0300 [error] [benchmark_io stream_method brief_logger] bq_sleep: Operation canceled
+2016-12-24 01:36:26.511 +0300 [error] [monitor_io] bq_sleep: Operation canceled
+2016-12-24 01:36:26.518 +0300 [info] [] Exit

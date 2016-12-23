@@ -1,0 +1,601 @@
+2016-12-24 01:38:13,560 [WARNING] yandextank.core.consoleworker consoleworker.py:164	/etc/yandex-tank is not accessible to get configs list
+2016-12-24 01:38:13,561 [INFO] yandextank.core.consoleworker consoleworker.py:199	No config passed via cmdline, using ./load.ini
+2016-12-24 01:38:13,562 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=True): /home/user/lab/helloWorld/helloWorld/src/load.ini
+2016-12-24 01:38:13,562 [INFO] yandextank.core.tankcore tankcore.py:110	Loading configs...
+2016-12-24 01:38:13,563 [DEBUG] yandextank.core.tankcore tankcore.py:569	Reading configs: ['/usr/local/lib/python2.7/dist-packages/yandextank/core/config/00-base.ini', '/home/user/.yandex-tank', '/home/user/lab/helloWorld/helloWorld/src/load.ini']
+2016-12-24 01:38:13,565 [DEBUG] yandextank.core.tankcore tankcore.py:599	Section: [tank] prefix: '' options:
+[('uuid', '1f94494f-2126-4604-8a75-b554be2d47ef'), ('pid', '2554'), ('lock_dir', '/var/lock'), ('plugin_rcheck', 'yandextank.plugins.ResourceCheck'), ('plugin_shellexec', 'yandextank.plugins.ShellExec'), ('plugin_phantom', 'yandextank.plugins.Phantom'), ('plugin_aggregate', 'yandextank.plugins.Aggregator'), ('plugin_autostop', 'yandextank.plugins.Autostop'), ('plugin_telegraf', 'yandextank.plugins.Telegraf'), ('plugin_console', 'yandextank.plugins.Console'), ('plugin_tips', 'yandextank.plugins.TipsAndTricks'), ('plugin_rcassert', 'yandextank.plugins.RCAssert'), ('artifacts_base_dir', 'logs'), ('plugin_overload', 'yandextank.plugins.Overload')]
+2016-12-24 01:38:13,566 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /var/lock/lunapark_N2lL7W.lock
+2016-12-24 01:38:13,566 [INFO] yandextank.core.tankcore tankcore.py:129	Loading plugins...
+2016-12-24 01:38:13,568 [DEBUG] yandextank.core.tankcore tankcore.py:599	Section: [tank] prefix: 'plugin_' options:
+[('rcheck', 'yandextank.plugins.ResourceCheck'), ('shellexec', 'yandextank.plugins.ShellExec'), ('phantom', 'yandextank.plugins.Phantom'), ('aggregate', 'yandextank.plugins.Aggregator'), ('autostop', 'yandextank.plugins.Autostop'), ('telegraf', 'yandextank.plugins.Telegraf'), ('console', 'yandextank.plugins.Console'), ('tips', 'yandextank.plugins.TipsAndTricks'), ('rcassert', 'yandextank.plugins.RCAssert'), ('overload', 'yandextank.plugins.Overload')]
+2016-12-24 01:38:13,568 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin rcheck from yandextank.plugins.ResourceCheck
+2016-12-24 01:38:13,569 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin shellexec from yandextank.plugins.ShellExec
+2016-12-24 01:38:13,569 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin phantom from yandextank.plugins.Phantom
+2016-12-24 01:38:13,570 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin aggregate from yandextank.plugins.Aggregator
+2016-12-24 01:38:13,570 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin autostop from yandextank.plugins.Autostop
+2016-12-24 01:38:13,570 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin telegraf from yandextank.plugins.Telegraf
+2016-12-24 01:38:13,570 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin console from yandextank.plugins.Console
+2016-12-24 01:38:13,570 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin tips from yandextank.plugins.TipsAndTricks
+2016-12-24 01:38:13,571 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin rcassert from yandextank.plugins.RCAssert
+2016-12-24 01:38:13,571 [DEBUG] yandextank.core.tankcore tankcore.py:148	Loading plugin overload from yandextank.plugins.Overload
+2016-12-24 01:38:13,576 [DEBUG] yandextank.core.tankcore tankcore.py:173	Plugin instances: [<yandextank.plugins.ResourceCheck.plugin.Plugin object at 0xb6f2c8c>, <yandextank.plugins.ShellExec.plugin.Plugin object at 0xb6f508c>, <yandextank.plugins.Phantom.plugin.Plugin object at 0xb6f50ec>, <yandextank.plugins.Aggregator.plugin.Plugin object at 0xb6f510c>, <yandextank.plugins.Autostop.plugin.Plugin object at 0xb6f53cc>, <yandextank.plugins.Telegraf.plugin.Plugin object at 0xb6f540c>, <yandextank.plugins.Console.plugin.Plugin object at 0xb6f552c>, <yandextank.plugins.TipsAndTricks.plugin.Plugin object at 0xb6f57ec>, <yandextank.plugins.RCAssert.plugin.Plugin object at 0xb6f59ac>, <yandextank.plugins.Overload.plugin.Plugin object at 0xb71026c>]
+2016-12-24 01:38:13,576 [INFO] yandextank.core.consoleworker consoleworker.py:258	Performing test
+2016-12-24 01:38:13,577 [INFO] yandextank.core.tankcore tankcore.py:183	Configuring plugins...
+2016-12-24 01:38:13,578 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Telegraf.plugin.Plugin'>
+2016-12-24 01:38:13,578 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Aggregator.plugin.Plugin'>
+2016-12-24 01:38:13,578 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.common.interfaces.GeneratorPlugin'>
+2016-12-24 01:38:13,578 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'meta', adding
+2016-12-24 01:38:13,581 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.ResourceCheck.plugin.Plugin object at 0xb6f2c8c>
+2016-12-24 01:38:13,581 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'rcheck', adding
+2016-12-24 01:38:13,582 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.ShellExec.plugin.Plugin object at 0xb6f508c>
+2016-12-24 01:38:13,582 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'shellexec', adding
+2016-12-24 01:38:13,584 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.Phantom.plugin.Plugin object at 0xb6f50ec>
+2016-12-24 01:38:13,585 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Autostop.plugin.Plugin'>
+2016-12-24 01:38:13,587 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/answ_YoYh1T.log
+2016-12-24 01:38:13,587 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/phout__kELlz.log
+2016-12-24 01:38:13,587 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/phantom_stat_QAvKb5.log
+2016-12-24 01:38:13,588 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/phantom_KYrfA1.log
+2016-12-24 01:38:13,595 [DEBUG] yandextank.common.util util.py:520	Trying to resolve address string: 127.0.0.1
+2016-12-24 01:38:13,599 [DEBUG] yandextank.common.util util.py:537	Parsing port
+2016-12-24 01:38:13,599 [DEBUG] yandextank.common.util util.py:547	Lookup result: [(2, 1, 6, '', ('127.0.0.1', 0)), (2, 2, 17, '', ('127.0.0.1', 0)), (2, 3, 0, '', ('127.0.0.1', 0))]
+2016-12-24 01:38:13,600 [INFO] yandextank.plugins.Phantom.utils utils.py:267	Resolved 127.0.0.1 into 127.0.0.1:80
+2016-12-24 01:38:13,601 [INFO] yandextank.stepper.main main.py:137	Configuring StepperWrapper...
+2016-12-24 01:38:13,603 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.ammofile = 
+2016-12-24 01:38:13,603 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.ammo_type = 
+2016-12-24 01:38:13,604 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.loop = -1
+2016-12-24 01:38:13,604 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.ammo_limit = -1
+2016-12-24 01:38:13,604 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.rps_schedule = line(1, 100, 10m)
+2016-12-24 01:38:13,604 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.instances_schedule = 
+2016-12-24 01:38:13,605 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.instances = 1000
+2016-12-24 01:38:13,605 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.uris = /
+2016-12-24 01:38:13,606 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.headers = 
+2016-12-24 01:38:13,606 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.header_http = 1.0
+2016-12-24 01:38:13,606 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.autocases = 0
+2016-12-24 01:38:13,607 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.enum_ammo = False
+2016-12-24 01:38:13,607 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.use_caching = 1
+2016-12-24 01:38:13,608 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.file_cache = 8192
+2016-12-24 01:38:13,608 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.force_stepping = 0
+2016-12-24 01:38:13,608 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.stpd_file = 
+2016-12-24 01:38:13,609 [DEBUG] yandextank.stepper.main main.py:121	Option phantom.chosen_cases = 
+2016-12-24 01:38:13,609 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.Aggregator.plugin.Plugin object at 0xb6f510c>
+2016-12-24 01:38:13,610 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'aggregator', adding
+2016-12-24 01:38:13,610 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.Autostop.plugin.Plugin object at 0xb6f53cc>
+2016-12-24 01:38:13,610 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Aggregator.plugin.Plugin'>
+2016-12-24 01:38:13,611 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'autostop', adding
+2016-12-24 01:38:13,613 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.Telegraf.plugin.Plugin object at 0xb6f540c>
+2016-12-24 01:38:13,613 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'telegraf', adding
+2016-12-24 01:38:13,613 [WARNING] yandextank.core.tankcore tankcore.py:370	Mandatory option config was not found in section telegraf
+2016-12-24 01:38:13,614 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'monitoring', adding
+2016-12-24 01:38:13,615 [WARNING] yandextank.core.tankcore tankcore.py:370	Mandatory option config was not found in section monitoring
+2016-12-24 01:38:13,619 [WARNING] yandextank.core.tankcore tankcore.py:370	Mandatory option default_target was not found in section telegraf
+2016-12-24 01:38:13,621 [WARNING] yandextank.core.tankcore tankcore.py:370	Mandatory option default_target was not found in section monitoring
+2016-12-24 01:38:13,624 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/monitoring_imJ5Pu.xml
+2016-12-24 01:38:13,625 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Autostop.plugin.Plugin'>
+2016-12-24 01:38:13,630 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.Console.plugin.Plugin object at 0xb6f552c>
+2016-12-24 01:38:13,630 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'console', adding
+2016-12-24 01:38:13,632 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Aggregator.plugin.Plugin'>
+2016-12-24 01:38:13,633 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.TipsAndTricks.plugin.Plugin object at 0xb6f57ec>
+2016-12-24 01:38:13,633 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'tips', adding
+2016-12-24 01:38:13,634 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.RCAssert.plugin.Plugin object at 0xb6f59ac>
+2016-12-24 01:38:13,634 [DEBUG] yandextank.core.tankcore tankcore.py:356	No section 'rcassert', adding
+2016-12-24 01:38:13,636 [DEBUG] yandextank.core.tankcore tankcore.py:223	Configuring <yandextank.plugins.Overload.plugin.Plugin object at 0xb71026c>
+2016-12-24 01:38:13,636 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:77	Trying to read token from token.txt
+2016-12-24 01:38:13,636 [INFO] yandextank.plugins.Overload.plugin plugin.py:83	Read authentication token from token.txt, token length is 32 bytes
+2016-12-24 01:38:13,642 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>
+2016-12-24 01:38:13,643 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:298	Can't get monitoring config
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/plugins/Overload/plugin.py", line 291, in __save_conf
+    mon = self.core.get_plugin_of_type(MonitoringPlugin)
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/core/tankcore.py", line 408, in get_plugin_of_type
+    plugin_class)
+KeyError: "Requested plugin type not found: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>"
+2016-12-24 01:38:13,644 [INFO] yandextank.core.tankcore tankcore.py:231	Preparing test...
+2016-12-24 01:38:13,645 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.ResourceCheck.plugin.Plugin object at 0xb6f2c8c>
+2016-12-24 01:38:13,647 [INFO] yandextank.common.interfaces plugin.py:37	Checking tank resources...
+2016-12-24 01:38:13,648 [DEBUG] yandextank.common.util util.py:447	Starting: sh -c "df --no-sync -m -P -l -x fuse -x tmpfs -x devtmpfs -x davfs -x nfs logs | tail -n 1 | awk '{print \$4}' "
+2016-12-24 01:38:13,654 [DEBUG] yandextank.common.util util.py:469	Process output:
+3745
+
+2016-12-24 01:38:13,654 [DEBUG] yandextank.common.util util.py:471	Process exit code: 0
+2016-12-24 01:38:13,654 [DEBUG] root plugin.py:56	Result: (0, '3745\n', '')
+2016-12-24 01:38:13,654 [DEBUG] yandextank.common.interfaces plugin.py:62	Disk free space: 3745/2048
+2016-12-24 01:38:13,655 [DEBUG] yandextank.common.interfaces plugin.py:72	Memory free: 801/512
+2016-12-24 01:38:13,655 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.ShellExec.plugin.Plugin object at 0xb6f508c>
+2016-12-24 01:38:13,655 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.Phantom.plugin.Plugin object at 0xb6f50ec>
+2016-12-24 01:38:13,655 [DEBUG] yandextank.stepper.main main.py:255	stpd-hash source: cache version 6||-1|-1|line(1, 100, 10m)|0|/||1.0||False|phantom|/|
+2016-12-24 01:38:13,655 [DEBUG] yandextank.stepper.main main.py:264	Generated cache file name: logs/_2ccb655c94ac60d7e45ca4173dd77908.stpd
+2016-12-24 01:38:13,656 [INFO] yandextank.stepper.main main.py:201	Using cached stpd-file: logs/_2ccb655c94ac60d7e45ca4173dd77908.stpd
+2016-12-24 01:38:13,658 [DEBUG] yandextank.stepper.main main.py:271	Reading cached stepper info: logs/_2ccb655c94ac60d7e45ca4173dd77908.stpd_si.json
+2016-12-24 01:38:13,658 [INFO] yandextank.stepper.main main.py:206	rps_schedule is set. Overriding cached instances param from config: 1000
+2016-12-24 01:38:13,660 [DEBUG] yandextank.stepper.info info.py:43	Published [u'line(1, 100, 10m)'] to loadscheme
+2016-12-24 01:38:13,660 [DEBUG] yandextank.stepper.info info.py:43	Published 30299 to loop_count
+2016-12-24 01:38:13,660 [DEBUG] yandextank.stepper.info info.py:43	Published [[1.0, 4], [2.0, 6], [3.0, 6], [4.0, 6], [5.0, 6], [6.0, 6], [7.0, 6], [8.0, 6], [9.0, 6], [10.0, 6], [11.0, 6], [12.0, 6], [13.0, 6], [14.0, 6], [15.0, 6], [16.0, 6], [17.0, 6], [18.0, 7], [19.0, 6], [20.0, 6], [21.0, 6], [22.0, 6], [23.0, 6], [24.0, 6], [25.0, 6], [26.0, 6], [27.0, 6], [28.0, 6], [29.0, 6], [30.0, 6], [31.0, 6], [32.0, 6], [33.0, 6], [34.0, 7], [35.0, 6], [36.0, 6], [37.0, 6], [38.0, 6], [39.0, 6], [40.0, 6], [41.0, 6], [42.0, 6], [43.0, 6], [44.0, 6], [45.0, 6], [46.0, 6], [47.0, 6], [48.0, 6], [49.0, 6], [50.0, 6], [51.0, 7], [52.0, 6], [53.0, 6], [54.0, 6], [55.0, 6], [56.0, 6], [57.0, 6], [58.0, 6], [59.0, 6], [60.0, 6], [61.0, 6], [62.0, 6], [63.0, 6], [64.0, 6], [65.0, 6], [66.0, 6], [67.0, 7], [68.0, 6], [69.0, 6], [70.0, 6], [71.0, 6], [72.0, 6], [73.0, 6], [74.0, 6], [75.0, 6], [76.0, 6], [77.0, 6], [78.0, 6], [79.0, 6], [80.0, 6], [81.0, 6], [82.0, 6], [83.0, 6], [84.0, 7], [85.0, 6], [86.0, 6], [87.0, 6], [88.0, 6], [89.0, 6], [90.0, 6], [91.0, 6], [92.0, 6], [93.0, 6], [94.0, 6], [95.0, 6], [96.0, 6], [97.0, 6], [98.0, 6], [99.0, 6], [100.0, 4]] to steps
+2016-12-24 01:38:13,660 [DEBUG] yandextank.stepper.info info.py:43	Published 600 to duration
+2016-12-24 01:38:13,660 [DEBUG] yandextank.stepper.info info.py:43	Published 1000 to instances
+2016-12-24 01:38:13,661 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/phantom_B_8HPn.conf
+2016-12-24 01:38:13,663 [DEBUG] yandextank.plugins.Phantom.utils utils.py:119	Generating phantom config: /home/user/lab/helloWorld/helloWorld/src/logs/phantom_B_8HPn.conf
+2016-12-24 01:38:13,665 [DEBUG] yandextank.common.util util.py:447	Starting: [u'phantom', 'check', '/home/user/lab/helloWorld/helloWorld/src/logs/phantom_B_8HPn.conf']
+2016-12-24 01:38:13,674 [DEBUG] yandextank.common.util util.py:469	Process output:
+setup_t module_setup = setup_module_t {
+  dir = "/usr/lib/phantom"
+  list = {
+    io_monitor
+    io_benchmark
+    io_benchmark_method_stream
+    io_benchmark_method_stream_ipv4
+    io_benchmark_method_stream_ipv6
+    io_benchmark_method_stream_source_log
+    io_benchmark_method_stream_proto_none
+    io_benchmark_method_stream_proto_http
+  }
+}
+setup_t stat_setup = setup_stat_t {
+  list = {
+    default
+  }
+}
+scheduler_t main_scheduler = scheduler_simple_t {
+  threads = 1
+  limit = unlimited
+  event_buf_size = 20
+  timeout_prec = 001
+  tname = ""
+  policy = other
+  priority = 0
+}
+logger_t phantom_logger = logger_file_t {
+  level = info
+  filename = "/home/user/lab/helloWorld/helloWorld/src/logs/phantom_KYrfA1.log"
+  check_interval = 1s
+  scheduler = main_scheduler
+}
+logger = phantom_logger
+io_t benchmark_io = io_benchmark_t {
+  instances = 1000
+  method_t stream_method = method_stream_ipv4_t {
+    address = 127.0.0.1
+    port = 80
+    bind = {
+    }
+    cork = true
+    timeout = 11s
+    ibuf_size = 4K
+    obuf_size = 1K
+    source_t source_log = source_log_t {
+      filename = "logs/_2ccb655c94ac60d7e45ca4173dd77908.stpd"
+      ibuf_size = 1M
+    }
+    source = source_log
+    transport = NULL
+    proto_t http_proto0 = proto_http_t {
+      reply_limits = {
+        line = 1K
+        field_num = 128
+        field = 8K
+        entity = 8M
+      }
+    }
+    proto_t none_proto = proto_none_t {
+    }
+    proto = http_proto0
+    logger_t benchmark_logger = logger_default_t {
+      filename = "/home/user/lab/helloWorld/helloWorld/src/logs/answ_YoYh1T.log"
+      check_interval = 1s
+      scheduler = main_scheduler
+      level = all
+    }
+    logger_t brief_logger = logger_brief_t {
+      time_format = unix
+      filename = "/home/user/lab/helloWorld/helloWorld/src/logs/phout__kELlz.log"
+      check_interval = 1s
+      scheduler = main_scheduler
+      level = all
+    }
+    loggers = {
+      brief_logger
+    }
+  }
+  method = stream_method
+  times_t simple_times = times_simple_t {
+    max = 11s
+    min = 001
+    steps = 20
+  }
+  times = simple_times
+  scheduler = main_scheduler
+}
+io_t monitor_io = io_monitor_t {
+  clear = true
+  period = 1s
+  list = {
+    main_scheduler
+    benchmark_io
+  }
+  stat_id = default
+  filename = "/home/user/lab/helloWorld/helloWorld/src/logs/phantom_stat_QAvKb5.log"
+  check_interval = 1s
+  scheduler = main_scheduler
+}
+
+2016-12-24 01:38:13,675 [DEBUG] yandextank.common.util util.py:471	Process exit code: 0
+2016-12-24 01:38:13,675 [DEBUG] yandextank.plugins.Phantom.plugin plugin.py:118	Linking sample reader to aggregator. Reading samples from /home/user/lab/helloWorld/helloWorld/src/logs/phout__kELlz.log
+2016-12-24 01:38:13,675 [DEBUG] yandextank.plugins.Phantom.plugin plugin.py:121	Linking stats reader to aggregator. Reading stats from /home/user/lab/helloWorld/helloWorld/src/logs/phantom_stat_QAvKb5.log
+2016-12-24 01:38:13,675 [DEBUG] yandextank.plugins.Phantom.utils utils.py:150	Steps: [[1.0, 4], [2.0, 6], [3.0, 6], [4.0, 6], [5.0, 6], [6.0, 6], [7.0, 6], [8.0, 6], [9.0, 6], [10.0, 6], [11.0, 6], [12.0, 6], [13.0, 6], [14.0, 6], [15.0, 6], [16.0, 6], [17.0, 6], [18.0, 7], [19.0, 6], [20.0, 6], [21.0, 6], [22.0, 6], [23.0, 6], [24.0, 6], [25.0, 6], [26.0, 6], [27.0, 6], [28.0, 6], [29.0, 6], [30.0, 6], [31.0, 6], [32.0, 6], [33.0, 6], [34.0, 7], [35.0, 6], [36.0, 6], [37.0, 6], [38.0, 6], [39.0, 6], [40.0, 6], [41.0, 6], [42.0, 6], [43.0, 6], [44.0, 6], [45.0, 6], [46.0, 6], [47.0, 6], [48.0, 6], [49.0, 6], [50.0, 6], [51.0, 7], [52.0, 6], [53.0, 6], [54.0, 6], [55.0, 6], [56.0, 6], [57.0, 6], [58.0, 6], [59.0, 6], [60.0, 6], [61.0, 6], [62.0, 6], [63.0, 6], [64.0, 6], [65.0, 6], [66.0, 6], [67.0, 7], [68.0, 6], [69.0, 6], [70.0, 6], [71.0, 6], [72.0, 6], [73.0, 6], [74.0, 6], [75.0, 6], [76.0, 6], [77.0, 6], [78.0, 6], [79.0, 6], [80.0, 6], [81.0, 6], [82.0, 6], [83.0, 6], [84.0, 7], [85.0, 6], [86.0, 6], [87.0, 6], [88.0, 6], [89.0, 6], [90.0, 6], [91.0, 6], [92.0, 6], [93.0, 6], [94.0, 6], [95.0, 6], [96.0, 6], [97.0, 6], [98.0, 6], [99.0, 6], [100.0, 4]]
+2016-12-24 01:38:13,676 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Console.plugin.Plugin'>
+2016-12-24 01:38:13,676 [DEBUG] yandextank.plugins.Phantom.utils utils.py:150	Steps: [[1.0, 4], [2.0, 6], [3.0, 6], [4.0, 6], [5.0, 6], [6.0, 6], [7.0, 6], [8.0, 6], [9.0, 6], [10.0, 6], [11.0, 6], [12.0, 6], [13.0, 6], [14.0, 6], [15.0, 6], [16.0, 6], [17.0, 6], [18.0, 7], [19.0, 6], [20.0, 6], [21.0, 6], [22.0, 6], [23.0, 6], [24.0, 6], [25.0, 6], [26.0, 6], [27.0, 6], [28.0, 6], [29.0, 6], [30.0, 6], [31.0, 6], [32.0, 6], [33.0, 6], [34.0, 7], [35.0, 6], [36.0, 6], [37.0, 6], [38.0, 6], [39.0, 6], [40.0, 6], [41.0, 6], [42.0, 6], [43.0, 6], [44.0, 6], [45.0, 6], [46.0, 6], [47.0, 6], [48.0, 6], [49.0, 6], [50.0, 6], [51.0, 7], [52.0, 6], [53.0, 6], [54.0, 6], [55.0, 6], [56.0, 6], [57.0, 6], [58.0, 6], [59.0, 6], [60.0, 6], [61.0, 6], [62.0, 6], [63.0, 6], [64.0, 6], [65.0, 6], [66.0, 6], [67.0, 7], [68.0, 6], [69.0, 6], [70.0, 6], [71.0, 6], [72.0, 6], [73.0, 6], [74.0, 6], [75.0, 6], [76.0, 6], [77.0, 6], [78.0, 6], [79.0, 6], [80.0, 6], [81.0, 6], [82.0, 6], [83.0, 6], [84.0, 7], [85.0, 6], [86.0, 6], [87.0, 6], [88.0, 6], [89.0, 6], [90.0, 6], [91.0, 6], [92.0, 6], [93.0, 6], [94.0, 6], [95.0, 6], [96.0, 6], [97.0, 6], [98.0, 6], [99.0, 6], [100.0, 4]]
+2016-12-24 01:38:13,677 [DEBUG] yandextank.plugins.Phantom.utils utils.py:150	Steps: [[1.0, 4], [2.0, 6], [3.0, 6], [4.0, 6], [5.0, 6], [6.0, 6], [7.0, 6], [8.0, 6], [9.0, 6], [10.0, 6], [11.0, 6], [12.0, 6], [13.0, 6], [14.0, 6], [15.0, 6], [16.0, 6], [17.0, 6], [18.0, 7], [19.0, 6], [20.0, 6], [21.0, 6], [22.0, 6], [23.0, 6], [24.0, 6], [25.0, 6], [26.0, 6], [27.0, 6], [28.0, 6], [29.0, 6], [30.0, 6], [31.0, 6], [32.0, 6], [33.0, 6], [34.0, 7], [35.0, 6], [36.0, 6], [37.0, 6], [38.0, 6], [39.0, 6], [40.0, 6], [41.0, 6], [42.0, 6], [43.0, 6], [44.0, 6], [45.0, 6], [46.0, 6], [47.0, 6], [48.0, 6], [49.0, 6], [50.0, 6], [51.0, 7], [52.0, 6], [53.0, 6], [54.0, 6], [55.0, 6], [56.0, 6], [57.0, 6], [58.0, 6], [59.0, 6], [60.0, 6], [61.0, 6], [62.0, 6], [63.0, 6], [64.0, 6], [65.0, 6], [66.0, 6], [67.0, 7], [68.0, 6], [69.0, 6], [70.0, 6], [71.0, 6], [72.0, 6], [73.0, 6], [74.0, 6], [75.0, 6], [76.0, 6], [77.0, 6], [78.0, 6], [79.0, 6], [80.0, 6], [81.0, 6], [82.0, 6], [83.0, 6], [84.0, 7], [85.0, 6], [86.0, 6], [87.0, 6], [88.0, 6], [89.0, 6], [90.0, 6], [91.0, 6], [92.0, 6], [93.0, 6], [94.0, 6], [95.0, 6], [96.0, 6], [97.0, 6], [98.0, 6], [99.0, 6], [100.0, 4]]
+2016-12-24 01:38:13,677 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Aggregator.plugin.Plugin'>
+2016-12-24 01:38:13,677 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.Aggregator.plugin.Plugin object at 0xb6f510c>
+2016-12-24 01:38:13,678 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.Autostop.plugin.Plugin object at 0xb6f53cc>
+2016-12-24 01:38:13,678 [DEBUG] yandextank.common.interfaces plugin.py:82	Criterion objects: {}
+2016-12-24 01:38:13,678 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Console.plugin.Plugin'>
+2016-12-24 01:38:13,678 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.Telegraf.plugin.Plugin object at 0xb6f540c>
+2016-12-24 01:38:13,678 [DEBUG] yandextank.plugins.Telegraf.plugin plugin.py:162	Changed monitoring target to 127.0.0.1
+2016-12-24 01:38:13,679 [INFO] yandextank.plugins.Telegraf.plugin plugin.py:164	Starting monitoring with config: /home/user/lab/helloWorld/helloWorld/src/logs/monitoring_imJ5Pu.xml
+2016-12-24 01:38:13,683 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=True): /home/user/lab/helloWorld/helloWorld/src/logs/monitoring_imJ5Pu.xml
+2016-12-24 01:38:13,685 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/monitoring_overall_ZsxgF3.data
+2016-12-24 01:38:13,685 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Console.plugin.Plugin'>
+2016-12-24 01:38:13,687 [DEBUG] yandextank.plugins.Telegraf.config config.py:97	Using target hint: 127.0.0.1
+2016-12-24 01:38:13,687 [INFO] root config.py:130	Empty host config, using defaults
+2016-12-24 01:38:13,688 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:63	Installing monitoring agent. Host: localhost
+2016-12-24 01:38:13,689 [INFO] yandextank.plugins.Telegraf.client client.py:54	Created temp dir /tmp/tmpVSaONm
+2016-12-24 01:38:13,690 [INFO] yandextank.plugins.Telegraf.config config.py:239	Found agent config file in working directory with the same name as created for host 127.0.0.1.
+Creating new one via tempfile. This will affect predictable filenames for agent artefacts
+2016-12-24 01:38:13,696 [INFO] yandextank.plugins.Telegraf.config config.py:172	Found agent startup config file in working directory with the same name as created for host 127.0.0.1.
+Creating new one via tempfile. This will affect predictable filenames for agent artefacts
+2016-12-24 01:38:13,702 [INFO] yandextank.plugins.Telegraf.config config.py:202	Found agent custom execs config file in working directory with the same name as created for host 127.0.0.1.
+Creating new one via tempfile. This will affect predictable filenames for agent artefacts
+2016-12-24 01:38:13,708 [ERROR] yandextank.plugins.Telegraf.client client.py:67	Telegraf binary not found at specified path: /usr/bin/telegraf
+You can download telegraf binaries here: https://github.com/influxdata/telegraf
+or install debian package: `telegraf`
+2016-12-24 01:38:13,912 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:13,912 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:14,113 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:14,113 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:14,315 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.02ms
+2016-12-24 01:38:14,315 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:14,516 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:14,516 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:14,717 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:14,717 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:14,918 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:14,919 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:15,119 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:15,120 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:15,321 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:15,321 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:15,523 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.04ms
+2016-12-24 01:38:15,523 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:15,724 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:15,724 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:15,925 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:15,925 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:16,125 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:16,126 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:16,326 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:16,327 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:16,527 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:16,527 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:16,728 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:16,728 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:16,930 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:16,930 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:17,131 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:17,131 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:17,332 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:17,332 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:17,532 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:17,533 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:17,733 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:17,733 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:17,935 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.03ms
+2016-12-24 01:38:17,935 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:18,136 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:18,136 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:18,337 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:18,337 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:18,537 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:18,538 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:18,739 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.02ms
+2016-12-24 01:38:18,739 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:18,940 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:18,940 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:19,141 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:19,141 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:19,341 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:19,342 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:19,543 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:19,543 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:19,744 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:19,744 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:19,945 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:19,945 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:20,145 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:20,146 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:20,346 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:20,347 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:20,548 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:20,548 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:20,749 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:20,749 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:20,951 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:20,951 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:21,153 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.03ms
+2016-12-24 01:38:21,153 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:21,353 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:21,354 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:21,554 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:21,555 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:21,755 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.02ms
+2016-12-24 01:38:21,756 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:21,956 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:21,956 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:22,158 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:22,158 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:22,359 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:22,359 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:22,560 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:22,561 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:22,763 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.03ms
+2016-12-24 01:38:22,763 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:22,966 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.02ms
+2016-12-24 01:38:22,966 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:23,168 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.03ms
+2016-12-24 01:38:23,168 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:23,369 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:23,370 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:23,570 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:23,571 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:23,772 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:23,772 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:23,973 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:23,973 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:24,175 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.02ms
+2016-12-24 01:38:24,175 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:24,376 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:24,376 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:24,577 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:24,577 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:24,777 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:24,778 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:24,978 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:24,979 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:25,180 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:25,180 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:25,381 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:25,381 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:25,582 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:25,582 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:25,784 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.03ms
+2016-12-24 01:38:25,784 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:25,985 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:25,985 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:26,186 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:26,186 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:26,387 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:26,387 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:26,587 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:26,588 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:26,789 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.02ms
+2016-12-24 01:38:26,789 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:26,990 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:26,990 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:27,192 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:27,192 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:27,392 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:27,393 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:27,593 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:27,593 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:27,794 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:27,795 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:27,996 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:27,999 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:28,201 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.03ms
+2016-12-24 01:38:28,201 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:28,402 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:28,403 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:28,603 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:28,603 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:28,804 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:104	Polling/decoding agents data took: 0.01ms
+2016-12-24 01:38:28,804 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:273	No jobNo gained yet
+2016-12-24 01:38:28,804 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.Console.plugin.Plugin object at 0xb6f552c>
+2016-12-24 01:38:28,804 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.TipsAndTricks.plugin.Plugin object at 0xb6f57ec>
+2016-12-24 01:38:28,805 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Console.plugin.Plugin'>
+2016-12-24 01:38:28,805 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.RCAssert.plugin.Plugin object at 0xb6f59ac>
+2016-12-24 01:38:28,805 [DEBUG] yandextank.core.tankcore tankcore.py:234	Preparing <yandextank.plugins.Overload.plugin.Plugin object at 0xb71026c>
+2016-12-24 01:38:28,805 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Console.plugin.Plugin'>
+2016-12-24 01:38:28,805 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Phantom.plugin.Plugin'>
+2016-12-24 01:38:28,805 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>
+2016-12-24 01:38:28,805 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:298	Can't get monitoring config
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/plugins/Overload/plugin.py", line 291, in __save_conf
+    mon = self.core.get_plugin_of_type(MonitoringPlugin)
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/core/tankcore.py", line 408, in get_plugin_of_type
+    plugin_class)
+KeyError: "Requested plugin type not found: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>"
+2016-12-24 01:38:28,806 [INFO] yandextank.core.tankcore tankcore.py:241	Starting test...
+2016-12-24 01:38:28,809 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.ResourceCheck.plugin.Plugin object at 0xb6f2c8c>
+2016-12-24 01:38:28,809 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.ShellExec.plugin.Plugin object at 0xb6f508c>
+2016-12-24 01:38:28,809 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.Phantom.plugin.Plugin object at 0xb6f50ec>
+2016-12-24 01:38:28,809 [DEBUG] yandextank.plugins.Phantom.plugin plugin.py:155	Starting phantom with arguments: [u'phantom', 'run', '/home/user/lab/helloWorld/helloWorld/src/logs/phantom_B_8HPn.conf']
+2016-12-24 01:38:28,809 [DEBUG] yandextank.core.tankcore tankcore.py:438	Adding artifact file to collect (keep=False): /home/user/lab/helloWorld/helloWorld/src/logs/phantom_stdout_stderr_q8kRlR.log
+2016-12-24 01:38:28,812 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.Aggregator.plugin.Plugin object at 0xb6f510c>
+2016-12-24 01:38:28,818 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.Autostop.plugin.Plugin object at 0xb6f53cc>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.Telegraf.plugin.Plugin object at 0xb6f540c>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.plugins.Telegraf.plugin plugin.py:57	load_start_time = 1482532708.82
+2016-12-24 01:38:28,819 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.Console.plugin.Plugin object at 0xb6f552c>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.TipsAndTricks.plugin.Plugin object at 0xb6f57ec>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.RCAssert.plugin.Plugin object at 0xb6f59ac>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.core.tankcore tankcore.py:244	Starting <yandextank.plugins.Overload.plugin.Plugin object at 0xb71026c>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Phantom.plugin.Plugin'>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.JMeter.plugin.Plugin'>
+2016-12-24 01:38:28,819 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:185	No jmeter plugin to get info: "Requested plugin type not found: <class 'yandextank.plugins.JMeter.plugin.Plugin'>"
+2016-12-24 01:38:28,820 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Pandora.plugin.Plugin'>
+2016-12-24 01:38:28,820 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:191	No pandora plugin to get info: "Requested plugin type not found: <class 'yandextank.plugins.Pandora.plugin.Plugin'>"
+2016-12-24 01:38:28,820 [INFO] yandextank.plugins.Overload.plugin plugin.py:195	Detected target: 127.0.0.1
+2016-12-24 01:38:28,822 [DEBUG] yandextank.plugins.Overload.client client.py:92	Job create request: {'person': 'user', 'host': '127.0.0.1', 'task': u'DEFAULT', 'tank': 'ubuntu', 'notify': [u''], 'loadscheme': [u'line(1, 100, 10m)'], 'detailed_time': 'interval_real', 'port': 80}
+2016-12-24 01:38:28,822 [DEBUG] yandextank.plugins.Overload.client client.py:68	Making POST request to: https://overload.yandex.net/api/job/create.json?api_token=041f5f715ded40bf8fe403da563d34e7
+{
+  "person": "user", 
+  "host": "127.0.0.1", 
+  "task": "DEFAULT", 
+  "tank": "ubuntu", 
+  "notify": [
+    ""
+  ], 
+  "loadscheme": [
+    "line(1, 100, 10m)"
+  ], 
+  "detailed_time": "interval_real", 
+  "port": 80
+}
+2016-12-24 01:38:28,984 [INFO] yandextank.core.consoleworker consoleworker.py:299	Exception: Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/core/consoleworker.py", line 275, in perform_test
+    self.core.plugins_start_test()
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/core/tankcore.py", line 245, in plugins_start_test
+    plugin.start_test()
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/plugins/Overload/plugin.py", line 199, in start_test
+    loadscheme, detailed_field, self.notify_list)
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/plugins/Overload/client.py", line 96, in new_job
+    "api/job/create.json?api_token=" + self.api_token, data)
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/plugins/Overload/client.py", line 71, in post
+    resp = self.session.send(prepared, timeout=self.api_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 423, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py", line 594, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py", line 350, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py", line 835, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connection.py", line 323, in connect
+    ssl_context=context)
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/contrib/pyopenssl.py", line 411, in wrap_socket
+    cnx.set_tlsext_host_name(server_hostname)
+AttributeError: '_socketobject' object has no attribute 'set_tlsext_host_name'
+
+2016-12-24 01:38:29,036 [ERROR] yandextank.core.consoleworker consoleworker.py:301	'_socketobject' object has no attribute 'set_tlsext_host_name'
+2016-12-24 01:38:29,038 [INFO] yandextank.core.consoleworker consoleworker.py:248	Trying to shutdown gracefully...
+2016-12-24 01:38:29,041 [INFO] yandextank.core.tankcore tankcore.py:279	Finishing test...
+2016-12-24 01:38:29,041 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.ResourceCheck.plugin.Plugin object at 0xb6f2c8c>
+2016-12-24 01:38:29,042 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:29,043 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:29,043 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.ShellExec.plugin.Plugin object at 0xb6f508c>
+2016-12-24 01:38:29,043 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:29,043 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:29,043 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.Phantom.plugin.Plugin object at 0xb6f50ec>
+2016-12-24 01:38:29,043 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:29,043 [WARNING] yandextank.plugins.Phantom.plugin plugin.py:203	Terminating phantom process with PID 2567
+2016-12-24 01:38:29,053 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:29,053 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.Aggregator.plugin.Plugin object at 0xb6f510c>
+2016-12-24 01:38:29,053 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:29,825 [DEBUG] yandextank.plugins.Phantom.reader reader.py:53	Chunk decode time: 6.92ms
+2016-12-24 01:38:30,848 [DEBUG] yandextank.plugins.Aggregator.aggregator aggregator.py:152	Aggregation time: 13.90ms
+2016-12-24 01:38:32,831 [DEBUG] yandextank.plugins.Aggregator.plugin plugin.py:98	Data timestamps:
+[1482532708]
+2016-12-24 01:38:32,831 [DEBUG] yandextank.plugins.Aggregator.plugin plugin.py:99	Stats timestamps:
+[]
+2016-12-24 01:38:32,831 [DEBUG] yandextank.plugins.Aggregator.plugin plugin.py:100	Data cache timestamps:
+[]
+2016-12-24 01:38:32,832 [DEBUG] yandextank.plugins.Aggregator.plugin plugin.py:101	Stats cache timestamps:
+[]
+2016-12-24 01:38:32,832 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:32,832 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.Autostop.plugin.Plugin object at 0xb6f53cc>
+2016-12-24 01:38:32,832 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:32,832 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:32,832 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.Telegraf.plugin.Plugin object at 0xb6f540c>
+2016-12-24 01:38:32,832 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:32,832 [INFO] yandextank.plugins.Telegraf.plugin plugin.py:208	Finishing monitoring
+2016-12-24 01:38:32,834 [DEBUG] yandextank.plugins.Telegraf.collector collector.py:117	Uninstalling monitoring agents
+2016-12-24 01:38:32,835 [DEBUG] yandextank.plugins.Telegraf.plugin plugin.py:239	Closing monitoring file
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.Console.plugin.Plugin object at 0xb6f552c>
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.TipsAndTricks.plugin.Plugin object at 0xb6f57ec>
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:32,835 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.RCAssert.plugin.Plugin object at 0xb6f59ac>
+2016-12-24 01:38:32,836 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:32,836 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:32,836 [DEBUG] yandextank.core.tankcore tankcore.py:283	Finalize <yandextank.plugins.Overload.plugin.Plugin object at 0xb71026c>
+2016-12-24 01:38:32,836 [DEBUG] yandextank.core.tankcore tankcore.py:285	RC before: 1
+2016-12-24 01:38:32,836 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>
+2016-12-24 01:38:32,836 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:298	Can't get monitoring config
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/plugins/Overload/plugin.py", line 291, in __save_conf
+    mon = self.core.get_plugin_of_type(MonitoringPlugin)
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/core/tankcore.py", line 408, in get_plugin_of_type
+    plugin_class)
+KeyError: "Requested plugin type not found: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>"
+2016-12-24 01:38:32,837 [DEBUG] yandextank.core.tankcore tankcore.py:287	RC after: 1
+2016-12-24 01:38:32,837 [INFO] yandextank.core.tankcore tankcore.py:303	Post-processing test...
+2016-12-24 01:38:32,838 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.ResourceCheck.plugin.Plugin object at 0xb6f2c8c>
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.ShellExec.plugin.Plugin object at 0xb6f508c>
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.Phantom.plugin.Plugin object at 0xb6f50ec>
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.Aggregator.plugin.Plugin object at 0xb6f510c>
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,839 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.Autostop.plugin.Plugin object at 0xb6f53cc>
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.Telegraf.plugin.Plugin object at 0xb6f540c>
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.Console.plugin.Plugin object at 0xb6f552c>
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.TipsAndTricks.plugin.Plugin object at 0xb6f57ec>
+2016-12-24 01:38:32,840 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,841 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,841 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.RCAssert.plugin.Plugin object at 0xb6f59ac>
+2016-12-24 01:38:32,841 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,841 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,841 [DEBUG] yandextank.core.tankcore tankcore.py:307	Post-process <yandextank.plugins.Overload.plugin.Plugin object at 0xb71026c>
+2016-12-24 01:38:32,841 [DEBUG] yandextank.core.tankcore tankcore.py:309	RC before: 1
+2016-12-24 01:38:32,841 [DEBUG] yandextank.core.tankcore tankcore.py:396	Searching for plugin: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>
+2016-12-24 01:38:32,841 [DEBUG] yandextank.plugins.Overload.plugin plugin.py:298	Can't get monitoring config
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/plugins/Overload/plugin.py", line 291, in __save_conf
+    mon = self.core.get_plugin_of_type(MonitoringPlugin)
+  File "/usr/local/lib/python2.7/dist-packages/yandextank/core/tankcore.py", line 408, in get_plugin_of_type
+    plugin_class)
+KeyError: "Requested plugin type not found: <class 'yandextank.plugins.Monitoring.plugin.Plugin'>"
+2016-12-24 01:38:32,842 [DEBUG] yandextank.core.tankcore tankcore.py:311	RC after: 1
+2016-12-24 01:38:32,842 [DEBUG] yandextank.core.tankcore tankcore.py:342	Collecting artifacts
+2016-12-24 01:38:32,842 [INFO] yandextank.core.tankcore tankcore.py:343	Artifacts dir: /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__
+2016-12-24 01:38:32,844 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/monitoring_overall_ZsxgF3.data to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/monitoring_overall_ZsxgF3.data
+2016-12-24 01:38:32,844 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/load.ini to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/load.ini
+2016-12-24 01:38:32,845 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/phantom_KYrfA1.log to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/phantom_KYrfA1.log
+2016-12-24 01:38:32,845 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/answ_YoYh1T.log to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/answ_YoYh1T.log
+2016-12-24 01:38:32,845 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/phantom_B_8HPn.conf to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/phantom_B_8HPn.conf
+2016-12-24 01:38:32,846 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/phantom_stdout_stderr_q8kRlR.log to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/phantom_stdout_stderr_q8kRlR.log
+2016-12-24 01:38:32,846 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/phantom_stat_QAvKb5.log to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/phantom_stat_QAvKb5.log
+2016-12-24 01:38:32,846 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /var/lock/lunapark_N2lL7W.lock to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/lunapark_N2lL7W.lock
+2016-12-24 01:38:32,847 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: tank.log to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/tank.log
+2016-12-24 01:38:32,847 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/monitoring_imJ5Pu.xml to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/monitoring_imJ5Pu.xml
+2016-12-24 01:38:32,847 [DEBUG] yandextank.core.tankcore tankcore.py:415	Collecting file: /home/user/lab/helloWorld/helloWorld/src/logs/phout__kELlz.log to /home/user/lab/helloWorld/helloWorld/src/logs/2016-12-24_01-38-13.vcnw__/phout__kELlz.log
+2016-12-24 01:38:32,847 [INFO] yandextank.core.consoleworker consoleworker.py:251	Done graceful shutdown
+2016-12-24 01:38:32,850 [INFO] yandextank.core.tankcore tankcore.py:526	Close allocated resources...
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.ResourceCheck.plugin.Plugin object at 0xb6f2c8c>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.ShellExec.plugin.Plugin object at 0xb6f508c>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.Phantom.plugin.Plugin object at 0xb6f50ec>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.Aggregator.plugin.Plugin object at 0xb6f510c>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.Autostop.plugin.Plugin object at 0xb6f53cc>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.Telegraf.plugin.Plugin object at 0xb6f540c>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.Console.plugin.Plugin object at 0xb6f552c>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.TipsAndTricks.plugin.Plugin object at 0xb6f57ec>
+2016-12-24 01:38:32,852 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.RCAssert.plugin.Plugin object at 0xb6f59ac>
+2016-12-24 01:38:32,853 [DEBUG] yandextank.core.tankcore tankcore.py:529	Close <yandextank.plugins.Overload.plugin.Plugin object at 0xb71026c>
+2016-12-24 01:38:32,853 [INFO] yandextank.core.consoleworker consoleworker.py:309	Done performing test with code 1
