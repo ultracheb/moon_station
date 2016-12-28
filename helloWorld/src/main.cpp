@@ -1,10 +1,28 @@
 #include <iostream>
+#include <string>
 #include "fcgio.h"
 
 using namespace std;
 
+struct Room {
+	string id;
+	float oxygen_amount;
+	float light;
+	bool opened;
+	int personal_capacity;
+	float water_amount;
+	string type;
+
+	string toJson() {
+		return "{ id: " + id + ", light:"; 
+//			", opened:" + opened + ", oxygen_amount:" + 
+//			oxygen_amount + ", personal_capacity:" + 
+//			personal_capacity + ", water_amount:" +
+//			water_amount + ", type:" + type + "}";  	
+	}	
+};
+
 int main(void) {
-    // Backup the stdio streambufs
     streambuf * cin_streambuf  = cin.rdbuf();
     streambuf * cout_streambuf = cout.rdbuf();
     streambuf * cerr_streambuf = cerr.rdbuf();
@@ -23,6 +41,8 @@ int main(void) {
         cout.rdbuf(&cout_fcgi_streambuf);
         cerr.rdbuf(&cerr_fcgi_streambuf);
 
+	const char* uri = FCGX_GetParam("REQUEST_URI", request.envp);
+
         cout << "Content-type: text/html\r\n"
              << "\r\n"
              << "<html>\n"
@@ -30,14 +50,11 @@ int main(void) {
              << "    <title>Hello, World!</title>\n"
              << "  </head>\n"
              << "  <body>\n"
-             << "    <h1>Hello, World!</h1>\n"
+             << "    <h1>Hello, " << uri <<" </h1>\n"
              << "  </body>\n"
              << "</html>\n";
-
-        // Note: the fcgi_streambuf destructor will auto flush
     }
 
-    // restore stdio streambufs
     cin.rdbuf(cin_streambuf);
     cout.rdbuf(cout_streambuf);
     cerr.rdbuf(cerr_streambuf);
