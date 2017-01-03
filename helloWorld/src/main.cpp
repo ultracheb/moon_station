@@ -39,7 +39,8 @@ string getAllRooms() {
 string getRoomById(char * id) {
     string result = "404 Not found";
     mongocxx::stdx::optional<bsoncxx::document::value> maybe_result =
-    collection.find_one(document{} << "id" << id << finalize);
+    collection.find_one(document{}<< "rooms.id"<<id<< finalize);
+    result += id;    
     if(maybe_result) {
         result = bsoncxx::to_json(*maybe_result);
     }
