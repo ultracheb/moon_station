@@ -7,6 +7,12 @@
 #include <ctype.h>
 #include "fcgio.h"
 
+#include <bsoncxx/builder/stream/document.hpp>
+#include <bsoncxx/json.hpp>
+
+#include <mongocxx/client.hpp>
+#include <mongocxx/instance.hpp>
+
 using namespace std;
 
 string toString(float a) {
@@ -63,28 +69,21 @@ string roomsJson(Room *rooms) {
     return result;
 }
 
-Room getRoomById(Room *rooms, string id) {
-    for (int i = 0; i < N; ++i) {
-        if (rooms[i] == id) {
-            return rooms[i];
-        }
-    }
-    return NULL;
-}
+mongocxx::instance inst{};
+mongocxx::client conn{mongocxx::uri{}};
 
-void fillRooms() {
-    for (int i = 0; i < N; ++i) {
-        rooms[i].id = toString(i);
-        rooms[i].oxygen_amount = (float) rand() / RAND_MAX;
-        rooms[i].light = (float) rand() / RAND_MAX;
-        rooms[i].water_amount = (float) rand() / RAND_MAX;
-    }
+auto collection = conn["moondb"]["rooms"];
+  
+string dbWork() {
+   auto cursor = collection.find({});
+   string result = "";
+    for (auto&& doc : cursor) {
+        result += bsoncxx::to_json(doc);
+    } 
+    return result;   
 }
 
 int main(void) {
-    rooms = new Room[N];
-    fillRooms();
-
     streambuf *cin_streambuf = cin.rdbuf();
     streambuf *cout_streambuf = cout.rdbuf();
     streambuf *cerr_streambuf = cerr.rdbuf();
@@ -104,20 +103,24 @@ int main(void) {
         cerr.rdbuf(&cerr_fcgi_streambuf);
 
         const char *uri = FCGX_GetParam("REQUEST_URI", request.envp);
-
-        regex regexTemplate("\\b(\\rooms\\)([^ ]*)");
-        char*match = new char[100];
-
-        if (uri == "/rooms") {
-            cout << roomsJson(rooms);
-        } else if (regex_search(uri, match, regexTemplate)) {
-            Room room = getRoomById(rooms, match);
-            if (room != NULL) {
-                cout << room.toJson();
-            } else {
-
-            }
-        }
+	string result = "empty";
+	//cout << uri << "\n";
+	//cout << "noup";
+        //regex regexTemplate("\\b(\\rooms\\)([^ ]*)");
+        //char*match = new char[100];
+	if (strcmp(uri, "/rooms") == 0) {
+            result = dbWork();
+        }// else{cout << "nop";}// else if (regex_search(uri, match, regexTemplate)) {
+        //    Room room = getRoomById(rooms, match);
+        //    if (room != NULL) {
+        //        cout << room.toJson();
+        //    } else {
+         //       cout << "{ status: 404}";
+        //    }
+        //}
+	cout << "Content-type: text/html\r\n" 
+	<< "\r\n" << result << "\n";
+        
     }
 
     cin.rdbuf(cin_streambuf);
