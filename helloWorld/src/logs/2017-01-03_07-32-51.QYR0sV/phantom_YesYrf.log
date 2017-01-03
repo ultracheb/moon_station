@@ -1,0 +1,6 @@
+2017-01-03 07:33:18.248 +0300 [info] [] Start
+2017-01-03 07:35:42.038 +0300 [error] [monitor_io] bq_sleep: Operation canceled
+2017-01-03 07:35:42.039 +0300 [error] [benchmark_io stream_method brief_logger] bq_sleep: Operation canceled
+2017-01-03 07:35:42.039 +0300 [error] [monitor_io] bq_sleep: Operation canceled
+2017-01-03 07:35:42.039 +0300 [error] [phantom_logger] bq_sleep: Operation canceled
+2017-01-03 07:35:42.044 +0300 [info] [] Exit
