@@ -20,13 +20,49 @@ mongocxx::client conn{mongocxx::uri{}};
 
 auto collection = conn["moondb"]["rooms"];
   
-string dbWork() {
+string getAllRooms() {
    auto cursor = collection.find({});
    string result = "";
     for (auto&& doc : cursor) {
         result += bsoncxx::to_json(doc);
     } 
-    return result;   
+    return result;
+}
+
+string getRoomById(char * id) {
+    string result = "404 Not found";
+    mongocxx::stdx::optional<bsoncxx::document::value> maybe_result =
+    collection.find_one(document{} << "id" << id << finalize);
+    if(maybe_result) {
+        result = bsoncxx::to_json(*maybe_result);
+    }
+    return result;
+}
+
+string get_request_content(const FCGX_Request & request) {
+    char * content_length_str = FCGX_GetParam("CONTENT_LENGTH",
+                                               request.envp);
+    unsigned long content_length = STDIN_MAX;
+
+    if (content_length_str) {
+        content_length = strtol(content_length_str,
+                                &content_length_str,
+                                10);
+
+        if (*content_length_str) {
+            cerr << "Can't Parse 'CONTENT_LENGTH='"
+                 << FCGX_GetParam("CONTENT_LENGTH", request.envp)
+                 << "'. Consuming stdin up to " << STDIN_MAX << endl;
+        }
+
+        if (content_length > STDIN_MAX) {
+            content_length = STDIN_MAX;
+        }
+    } else {
+        // Do not read from stdin if CONTENT_LENGTH is missing
+        content_length = 0;
+    }
+    ...
 }
 
 int main(void) {
@@ -50,14 +86,14 @@ int main(void) {
 
         const char *uri = FCGX_GetParam("REQUEST_URI", request.envp);
 	string result = "empty";
-        //regex regexTemplate("\\b(\\rooms\\)([^ ]*)");
-        //char*match = new char[100];
+        regex regexTemplate("\\b(\\rooms\\)([^ ]*)");
+        char*match = new char[100];
 	if (strcmp(uri, "/rooms") == 0) {
-            result = dbWork();
+            result = getAllRooms();
         }
-	// else if (regex_search(uri, match, regexTemplate)) {
-        //    Room room = getRoomById(rooms, match);
-        // }
+	 else if (regex_search(uri, match, regexTemplate)) {
+            result = getRoomById(match);
+         }
 	cout << "Content-type: bson\r\n" 
 	<< "\r\n" << result << "\n";
     }
