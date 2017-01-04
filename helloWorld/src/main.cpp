@@ -19,6 +19,8 @@
 
 using bsoncxx::builder::stream::document;
 using bsoncxx::builder::stream::finalize;
+using bsoncxx::builder::stream::open_document;
+using bsoncxx::builder::stream::close_document;
 
 using namespace std;
 
@@ -47,31 +49,52 @@ string getRoomById(char * id) {
     return result;
 }
 
-//string get_request_content(const FCGX_Request & request) {
-//    char * content_length_str = FCGX_GetParam("CONTENT_LENGTH",
-//                                               request.envp);
-//    unsigned long content_length = STDIN_MAX;
+string updateDesired(char* id, string desiredRoom) {
+    collection.update_one(document{} << "desired.id" << id << finalize,
+				document{} << "$set" << open_document <<
+				"desired.id" << desiredRoom 
+				<< close_document << finalize);
+}
 
-  //  if (content_length_str) {
-    //    content_length = strtol(content_length_str,
- //                              &content_length_str,
-      //                          10);
+string updateRoom(char* id, string room) {
+    collection.update_one(document{} << "room.id" << id << finalize,
+				document{} << "$set" << open_document <<
+				"room.id" << room 
+				<< close_document << finalize);
+}
 
-        //if (*content_length_str) {
-        //    cerr << "Can't Parse 'CONTENT_LENGTH='"
-          //       << FCGX_GetParam("CONTENT_LENGTH", request.envp)
-            //     << "'. Consuming stdin up to " << STDIN_MAX << endl;
-        //}
 
-        //if (content_length > STDIN_MAX) {
-        //    content_length = STDIN_MAX;
-        //}
-    //} else {
-        // Do not read from stdin if CONTENT_LENGTH is missing
-      //  content_length = 0;
-    //}
-    //return "";
-//}
+string get_request_content(const FCGX_Request & request) {
+    char * content_length_str = FCGX_GetParam("CONTENT_LENGTH",
+                                               request.envp);
+    int MAX_LENGTH = 256;
+    unsigned long content_length = MAX_LENGTH;
+
+    if (content_length_str) {
+        content_length = strtol(content_length_str,
+                               &content_length_str,
+                                10);
+
+        if (*content_length_str) {
+            cerr << "Can't Parse 'CONTENT_LENGTH='"
+                 << FCGX_GetParam("CONTENT_LENGTH", request.envp)
+                 << "'. Consuming stdin up to " << MAX_LENGTH << endl;
+        }
+        if (content_length > MAX_LENGTH) {
+            content_length = MAX_LENGTH;
+        }
+    } else {
+        content_length = 0;
+        return "";
+    }
+    char* content_buffer = new char[content_length];
+    cin.read(content_buffer, content_length);
+    content_length = cin.gcount();
+    do cin.ignore(1024); while (cin.gcount() == 1024); 
+    string content(content_buffer, content_length);
+    delete [] content_buffer;
+    return content;
+}
 
 int main(void) {
     streambuf *cin_streambuf = cin.rdbuf();
@@ -95,15 +118,24 @@ int main(void) {
         char *uri = FCGX_GetParam("REQUEST_URI", request.envp);
 	string result = "empty";
         regex regexTemplate("\\b(rooms/)([^ ]*)");
-        smatch match;
+        regex desiredRoomTemplate("\\b(rooms/desired/)([^ ]*)");
+	smatch match;
+	string content = get_request_content(request);
 	
 	if (strcmp(uri, "/rooms") == 0) {
             result = getAllRooms();
         } else if (regex_search((string)(uri + 1), match, regexTemplate)) {
-            result = getRoomById(uri + 7);
-        }
-	cout << "Content-type: bson\r\n" 
-	<< "\r\n" << result << "\n";
+            if (content.length() == 0) {
+		result = getRoomById(uri + 7);
+	    } else {
+		updateRoom(uri + 7, content);
+	    }
+        } else if (regex_search((string)(uri + 1), match,desiredRoomTemplate)) {
+            if (content.length() != 0) {
+		updateDesired(uri + 15, content);
+	    }           
+	}
+	cout << "Content-type: bson\r\n" << "\r\n" << result << "\n";
     }
 
     cin.rdbuf(cin_streambuf);
