@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include "fcgio.h"
+#include "json.hpp"
 
 #include <cstdint>
 #include <vector>
@@ -16,12 +17,14 @@
 #include <bsoncxx/builder/stream/document.hpp>
 #include <bsoncxx/json.hpp>
 #include <mongocxx/instance.hpp>
+#include <bsoncxx/types.hpp>
+
 
 using bsoncxx::builder::stream::document;
 using bsoncxx::builder::stream::finalize;
 using bsoncxx::builder::stream::open_document;
 using bsoncxx::builder::stream::close_document;
-
+using nlohmann::json;
 using namespace std;
 
 mongocxx::instance inst{};
@@ -62,15 +65,30 @@ string updateDesired(char* id, string desiredRoom) {
 }
 
 string updateRoom(char* id, string room) {
-    mongocxx::stdx::optional<mongocxx::result::update> result = 
-    collection.update_one(document{} << "id" << atoi(id) << finalize,
-				document{} << "$"<< 
-				open_document << room << room << 
-				close_document << finalize);
-    if(result) {
+//    mongocxx::stdx::optional<mongocxx::result::update> result = 
+//    collection.update_one(document{} << "id" << atoi(id) << finalize,
+//				document{} << "$set" << open_document 
+//<< "{type:kitch}" << close_document << finalize);
+//				bsoncxx::from_json("{$set: {'oxygen_amount':6}}"));
+auto j1 = json::parse(room);    
+
+
+bsoncxx::builder::stream::document filterBuilder, replaceBuilder;
+    filterBuilder << "id" << atoi(id);
+string s1 = "";
+string s2;
+for (nlohmann::json::iterator it = j1.begin(); it != j1.end(); ++it)  {
+
+s1 = it.key();
+s2 = it.value();    
+replaceBuilder <<"$set"<<  open_document << s1 << s2 << close_document;
+}
+    collection.update_one(filterBuilder.view(), replaceBuilder.view());
+
+    //if(result) {
 	return "200";
-    }
-    return "404";
+    //}
+    //return "404";
 }
 
 
@@ -95,7 +113,6 @@ string get_request_content(const FCGX_Request & request) {
         }
     } else {
         content_length = 0;
-        return "";
     }
     char* content_buffer = new char[content_length];
     cin.read(content_buffer, content_length);
@@ -131,14 +148,14 @@ int main(void) {
         regex desiredRoomTemplate("\\b(rooms/desired/)([^ ]*)");
 	smatch match;
 	string content = get_request_content(request);
-	
+	//result += content;
 	if (strcmp(uri, "/rooms") == 0) {
             result = getAllRooms();
         } else if (regex_search((string)(uri + 1), match, regexTemplate)) {
             if (content.length() == 0) {
 		result = getRoomById(uri + 7);
 	    } else {
-		updateRoom(uri + 7, content);
+		result = updateRoom(uri + 7, content);
 	    }
         } else if (regex_search((string)(uri + 1), match,desiredRoomTemplate)) {
             if (content.length() != 0) {
