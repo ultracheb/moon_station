@@ -31,7 +31,7 @@ mongocxx::instance inst{};
 mongocxx::client conn{mongocxx::uri{}};
 
 auto collection = conn["moondatabase"]["rooms"];
-auto desiredCollection = conn["moondatabase"]["desired_rooms"]
+auto desiredCollection = conn["moondatabase"]["desired_rooms"];
   
 string getAllRooms() {
    auto cursor = collection.find({});
@@ -54,42 +54,33 @@ string getRoomById(char * id) {
 }
 
 string updateDesired(char* id, string desiredRoom) {
-    mongocxx::stdx::optional<mongocxx::result::update> result = 
-    collection.update_one(document{} << "desired.id" << id << finalize,
-				document{} << "$set" << open_document <<
-				desiredRoom << desiredRoom 
-				<< close_document << finalize);
-    if(result) {
-	return "200";
+    auto j1 = json::parse(desiredRoom);    
+    bsoncxx::builder::stream::document filterBuilder, replaceBuilder;
+    filterBuilder << "id" << atoi(id);
+    string key;
+    string value;
+    for (nlohmann::json::iterator it = j1.begin(); it != j1.end(); ++it)  {
+	key = it.key();
+	value = it.value();    
+	replaceBuilder <<"$set"<<open_document<< key << value << close_document;
     }
-    return "404";
+    desiredCollection.replace_one(filterBuilder.view(), replaceBuilder.view());
+    return "200";
 }
 
 string updateRoom(char* id, string room) {
-//    mongocxx::stdx::optional<mongocxx::result::update> result = 
-//    collection.update_one(document{} << "id" << atoi(id) << finalize,
-//				document{} << "$set" << open_document 
-//<< "{type:kitch}" << close_document << finalize);
-//				bsoncxx::from_json("{$set: {'oxygen_amount':6}}"));
-auto j1 = json::parse(room);    
-
-
-bsoncxx::builder::stream::document filterBuilder, replaceBuilder;
+    auto j1 = json::parse(room);    
+    bsoncxx::builder::stream::document filterBuilder, replaceBuilder;
     filterBuilder << "id" << atoi(id);
-string s1 = "";
-string s2;
-for (nlohmann::json::iterator it = j1.begin(); it != j1.end(); ++it)  {
-
-s1 = it.key();
-s2 = it.value();    
-replaceBuilder <<"$set"<<  open_document << s1 << s2 << close_document;
-}
+    string key;
+    string value;
+    for (nlohmann::json::iterator it = j1.begin(); it != j1.end(); ++it)  {
+	key = it.key();
+	value = it.value();    
+	replaceBuilder <<"$set"<<open_document<< key << value << close_document;
+    }
     collection.update_one(filterBuilder.view(), replaceBuilder.view());
-
-    //if(result) {
-	return "200";
-    //}
-    //return "404";
+    return "200";
 }
 
 
