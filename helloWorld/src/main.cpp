@@ -31,6 +31,7 @@ mongocxx::instance inst{};
 mongocxx::client conn{mongocxx::uri{}};
 
 auto collection = conn["moondatabase"]["rooms"];
+auto desiredCollection = conn["moondatabase"]["desired_rooms"]
   
 string getAllRooms() {
    auto cursor = collection.find({});
