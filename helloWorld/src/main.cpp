@@ -27,7 +27,7 @@ using namespace std;
 mongocxx::instance inst{};
 mongocxx::client conn{mongocxx::uri{}};
 
-auto collection = conn["moondb"]["rooms"];
+auto collection = conn["moondatabase"]["rooms"];
   
 string getAllRooms() {
    auto cursor = collection.find({});
@@ -41,7 +41,7 @@ string getAllRooms() {
 string getRoomById(char * id) {
     string result = "404 Not found";
     mongocxx::stdx::optional<bsoncxx::document::value> maybe_result =
-    collection.find_one(document{}<< "rooms.id"<<id<< finalize);
+    collection.find_one(document{}<< "id"<<atoi(id)<< finalize);
     result += id;    
     if(maybe_result) {
         result = bsoncxx::to_json(*maybe_result);
@@ -50,17 +50,27 @@ string getRoomById(char * id) {
 }
 
 string updateDesired(char* id, string desiredRoom) {
+    mongocxx::stdx::optional<mongocxx::result::update> result = 
     collection.update_one(document{} << "desired.id" << id << finalize,
 				document{} << "$set" << open_document <<
-				"desired.id" << desiredRoom 
+				desiredRoom << desiredRoom 
 				<< close_document << finalize);
+    if(result) {
+	return "200";
+    }
+    return "404";
 }
 
 string updateRoom(char* id, string room) {
-    collection.update_one(document{} << "room.id" << id << finalize,
-				document{} << "$set" << open_document <<
-				"room.id" << room 
-				<< close_document << finalize);
+    mongocxx::stdx::optional<mongocxx::result::update> result = 
+    collection.update_one(document{} << "id" << atoi(id) << finalize,
+				document{} << "$"<< 
+				open_document << room << room << 
+				close_document << finalize);
+    if(result) {
+	return "200";
+    }
+    return "404";
 }
 
 

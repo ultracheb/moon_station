@@ -1,0 +1,605 @@
+2017-01-04 03:32:06.380 +0300 [info] [] Start
+2017-01-04 03:32:38.286 +0300 [error] [benchmark_io 176] poll: Connection timed out
+2017-01-04 03:32:38.286 +0300 [error] [benchmark_io 179] poll: Connection timed out
+2017-01-04 03:32:38.286 +0300 [error] [benchmark_io 180] poll: Connection timed out
+2017-01-04 03:32:38.349 +0300 [error] [benchmark_io 190] poll: Connection timed out
+2017-01-04 03:32:38.349 +0300 [error] [benchmark_io 191] poll: Connection timed out
+2017-01-04 03:32:38.361 +0300 [error] [benchmark_io 193] poll: Connection timed out
+2017-01-04 03:32:38.361 +0300 [error] [benchmark_io 189] poll: Connection timed out
+2017-01-04 03:32:38.412 +0300 [error] [benchmark_io 204] poll: Connection timed out
+2017-01-04 03:32:38.412 +0300 [error] [benchmark_io 205] poll: Connection timed out
+2017-01-04 03:32:38.458 +0300 [error] [benchmark_io 215] poll: Connection timed out
+2017-01-04 03:32:38.484 +0300 [error] [benchmark_io 220] poll: Connection timed out
+2017-01-04 03:32:38.508 +0300 [error] [benchmark_io 225] poll: Connection timed out
+2017-01-04 03:32:38.518 +0300 [error] [benchmark_io 226] poll: Connection timed out
+2017-01-04 03:32:38.519 +0300 [error] [benchmark_io 227] poll: Connection timed out
+2017-01-04 03:32:38.574 +0300 [error] [benchmark_io 237] poll: Connection timed out
+2017-01-04 03:32:38.691 +0300 [error] [benchmark_io 261] poll: Connection timed out
+2017-01-04 03:32:38.737 +0300 [error] [benchmark_io 271] poll: Connection timed out
+2017-01-04 03:32:38.748 +0300 [error] [benchmark_io 272] poll: Connection timed out
+2017-01-04 03:32:38.753 +0300 [error] [benchmark_io 274] poll: Connection timed out
+2017-01-04 03:32:38.761 +0300 [error] [benchmark_io 276] poll: Connection timed out
+2017-01-04 03:32:38.781 +0300 [error] [benchmark_io 279] poll: Connection timed out
+2017-01-04 03:32:38.789 +0300 [error] [benchmark_io 280] poll: Connection timed out
+2017-01-04 03:32:38.793 +0300 [error] [benchmark_io 282] poll: Connection timed out
+2017-01-04 03:32:38.819 +0300 [error] [benchmark_io 287] poll: Connection timed out
+2017-01-04 03:32:38.823 +0300 [error] [benchmark_io 288] poll: Connection timed out
+2017-01-04 03:32:38.836 +0300 [error] [benchmark_io 291] poll: Connection timed out
+2017-01-04 03:32:38.849 +0300 [error] [benchmark_io 293] poll: Connection timed out
+2017-01-04 03:32:38.939 +0300 [error] [benchmark_io 311] poll: Connection timed out
+2017-01-04 03:32:38.941 +0300 [error] [benchmark_io 312] poll: Connection timed out
+2017-01-04 03:32:38.958 +0300 [error] [benchmark_io 315] poll: Connection timed out
+2017-01-04 03:32:38.973 +0300 [error] [benchmark_io 318] poll: Connection timed out
+2017-01-04 03:32:38.978 +0300 [error] [benchmark_io 319] poll: Connection timed out
+2017-01-04 03:32:39.001 +0300 [error] [benchmark_io 324] poll: Connection timed out
+2017-01-04 03:32:39.013 +0300 [error] [benchmark_io 325] poll: Connection timed out
+2017-01-04 03:32:39.070 +0300 [error] [benchmark_io 336] poll: Connection timed out
+2017-01-04 03:32:39.071 +0300 [error] [benchmark_io 337] poll: Connection timed out
+2017-01-04 03:32:39.093 +0300 [error] [benchmark_io 339] poll: Connection timed out
+2017-01-04 03:32:39.093 +0300 [error] [benchmark_io 341] poll: Connection timed out
+2017-01-04 03:32:39.247 +0300 [error] [benchmark_io 373] poll: Connection timed out
+2017-01-04 03:32:39.282 +0300 [error] [benchmark_io 379] poll: Connection timed out
+2017-01-04 03:32:39.328 +0300 [error] [benchmark_io 388] poll: Connection timed out
+2017-01-04 03:32:39.370 +0300 [error] [benchmark_io 389] poll: Connection timed out
+2017-01-04 03:32:39.402 +0300 [error] [benchmark_io 403] poll: Connection timed out
+2017-01-04 03:32:39.428 +0300 [error] [benchmark_io 406] poll: Connection timed out
+2017-01-04 03:32:39.429 +0300 [error] [benchmark_io 407] poll: Connection timed out
+2017-01-04 03:32:39.440 +0300 [error] [benchmark_io 410] poll: Connection timed out
+2017-01-04 03:32:39.444 +0300 [error] [benchmark_io 411] poll: Connection timed out
+2017-01-04 03:32:39.488 +0300 [error] [benchmark_io 420] poll: Connection timed out
+2017-01-04 03:32:39.493 +0300 [error] [benchmark_io 422] poll: Connection timed out
+2017-01-04 03:32:39.500 +0300 [error] [benchmark_io 423] poll: Connection timed out
+2017-01-04 03:32:39.508 +0300 [error] [benchmark_io 425] poll: Connection timed out
+2017-01-04 03:32:39.524 +0300 [error] [benchmark_io 427] poll: Connection timed out
+2017-01-04 03:32:39.524 +0300 [error] [benchmark_io 428] poll: Connection timed out
+2017-01-04 03:32:39.558 +0300 [error] [benchmark_io 434] poll: Connection timed out
+2017-01-04 03:32:39.559 +0300 [error] [benchmark_io 435] poll: Connection timed out
+2017-01-04 03:32:39.573 +0300 [error] [benchmark_io 437] poll: Operation canceled
+2017-01-04 03:32:39.574 +0300 [error] [benchmark_io 444] poll: Operation canceled
+2017-01-04 03:32:39.574 +0300 [error] [benchmark_io 482] poll: Operation canceled
+2017-01-04 03:32:39.574 +0300 [error] [benchmark_io 487] poll: Operation canceled
+2017-01-04 03:32:39.574 +0300 [error] [benchmark_io 488] poll: Operation canceled
+2017-01-04 03:32:39.575 +0300 [error] [benchmark_io 490] poll: Operation canceled
+2017-01-04 03:32:39.575 +0300 [error] [benchmark_io 491] poll: Operation canceled
+2017-01-04 03:32:39.575 +0300 [error] [benchmark_io 495] poll: Operation canceled
+2017-01-04 03:32:39.576 +0300 [error] [benchmark_io 498] poll: Operation canceled
+2017-01-04 03:32:39.576 +0300 [error] [benchmark_io 502] poll: Operation canceled
+2017-01-04 03:32:39.576 +0300 [error] [benchmark_io 516] poll: Operation canceled
+2017-01-04 03:32:39.577 +0300 [error] [benchmark_io 526] poll: Operation canceled
+2017-01-04 03:32:39.577 +0300 [error] [benchmark_io 527] poll: Operation canceled
+2017-01-04 03:32:39.577 +0300 [error] [benchmark_io 544] poll: Operation canceled
+2017-01-04 03:32:39.577 +0300 [error] [benchmark_io 548] poll: Operation canceled
+2017-01-04 03:32:39.577 +0300 [error] [benchmark_io 563] poll: Operation canceled
+2017-01-04 03:32:39.577 +0300 [error] [benchmark_io 564] poll: Operation canceled
+2017-01-04 03:32:39.577 +0300 [error] [benchmark_io 572] poll: Operation canceled
+2017-01-04 03:32:39.578 +0300 [error] [benchmark_io 592] poll: Operation canceled
+2017-01-04 03:32:39.578 +0300 [error] [benchmark_io 594] poll: Operation canceled
+2017-01-04 03:32:39.579 +0300 [error] [benchmark_io 593] poll: Operation canceled
+2017-01-04 03:32:39.579 +0300 [error] [benchmark_io 595] poll: Operation canceled
+2017-01-04 03:32:39.580 +0300 [error] [benchmark_io 596] poll: Operation canceled
+2017-01-04 03:32:39.581 +0300 [error] [benchmark_io 597] poll: Operation canceled
+2017-01-04 03:32:39.581 +0300 [error] [benchmark_io 598] poll: Operation canceled
+2017-01-04 03:32:39.582 +0300 [error] [benchmark_io 599] poll: Operation canceled
+2017-01-04 03:32:39.582 +0300 [error] [monitor_io] bq_sleep: Operation canceled
+2017-01-04 03:32:39.583 +0300 [error] [phantom_logger] bq_sleep: Operation canceled
+2017-01-04 03:32:39.583 +0300 [error] [benchmark_io stream_method brief_logger] bq_sleep: Operation canceled
+2017-01-04 03:32:39.583 +0300 [error] [benchmark_io 614] poll: Operation canceled
+2017-01-04 03:32:39.585 +0300 [error] [benchmark_io 615] poll: Operation canceled
+2017-01-04 03:32:39.586 +0300 [error] [benchmark_io 616] poll: Operation canceled
+2017-01-04 03:32:39.586 +0300 [error] [monitor_io] bq_sleep: Operation canceled
+2017-01-04 03:32:39.587 +0300 [error] [benchmark_io 622] poll: Operation canceled
+2017-01-04 03:32:39.589 +0300 [error] [benchmark_io 632] poll: Operation canceled
+2017-01-04 03:32:39.590 +0300 [error] [benchmark_io 636] poll: Operation canceled
+2017-01-04 03:32:39.592 +0300 [error] [benchmark_io 637] poll: Operation canceled
+2017-01-04 03:32:39.592 +0300 [error] [benchmark_io 638] poll: Operation canceled
+2017-01-04 03:32:39.592 +0300 [error] [benchmark_io 672] poll: Operation canceled
+2017-01-04 03:32:39.593 +0300 [error] [benchmark_io 673] poll: Operation canceled
+2017-01-04 03:32:39.593 +0300 [error] [benchmark_io 681] poll: Operation canceled
+2017-01-04 03:32:39.593 +0300 [error] [benchmark_io 685] poll: Operation canceled
+2017-01-04 03:32:39.594 +0300 [error] [benchmark_io 686] poll: Operation canceled
+2017-01-04 03:32:39.594 +0300 [error] [benchmark_io 688] poll: Operation canceled
+2017-01-04 03:32:39.595 +0300 [error] [benchmark_io 689] poll: Operation canceled
+2017-01-04 03:32:39.596 +0300 [error] [benchmark_io 693] poll: Operation canceled
+2017-01-04 03:32:39.596 +0300 [error] [benchmark_io 697] poll: Operation canceled
+2017-01-04 03:32:39.596 +0300 [error] [benchmark_io 699] poll: Operation canceled
+2017-01-04 03:32:39.597 +0300 [error] [benchmark_io 701] poll: Operation canceled
+2017-01-04 03:32:39.597 +0300 [error] [benchmark_io 700] poll: Operation canceled
+2017-01-04 03:32:39.597 +0300 [error] [benchmark_io 708] poll: Operation canceled
+2017-01-04 03:32:39.597 +0300 [error] [benchmark_io 709] poll: Operation canceled
+2017-01-04 03:32:39.597 +0300 [error] [benchmark_io 713] poll: Operation canceled
+2017-01-04 03:32:39.598 +0300 [error] [benchmark_io 714] poll: Operation canceled
+2017-01-04 03:32:39.605 +0300 [error] [benchmark_io 724] poll: Operation canceled
+2017-01-04 03:32:39.606 +0300 [error] [benchmark_io 729] poll: Operation canceled
+2017-01-04 03:32:39.606 +0300 [error] [benchmark_io 744] poll: Operation canceled
+2017-01-04 03:32:39.606 +0300 [error] [benchmark_io 748] poll: Operation canceled
+2017-01-04 03:32:39.607 +0300 [error] [benchmark_io 749] poll: Operation canceled
+2017-01-04 03:32:39.607 +0300 [error] [benchmark_io 751] poll: Operation canceled
+2017-01-04 03:32:39.607 +0300 [error] [benchmark_io 752] poll: Operation canceled
+2017-01-04 03:32:39.607 +0300 [error] [benchmark_io 753] poll: Operation canceled
+2017-01-04 03:32:39.607 +0300 [error] [benchmark_io 764] poll: Operation canceled
+2017-01-04 03:32:39.608 +0300 [error] [benchmark_io 767] poll: Operation canceled
+2017-01-04 03:32:39.608 +0300 [error] [benchmark_io 768] poll: Operation canceled
+2017-01-04 03:32:39.608 +0300 [error] [benchmark_io 771] poll: Operation canceled
+2017-01-04 03:32:39.608 +0300 [error] [benchmark_io 772] poll: Operation canceled
+2017-01-04 03:32:39.609 +0300 [error] [benchmark_io 779] poll: Operation canceled
+2017-01-04 03:32:39.609 +0300 [error] [benchmark_io 783] poll: Operation canceled
+2017-01-04 03:32:39.610 +0300 [error] [benchmark_io 784] poll: Operation canceled
+2017-01-04 03:32:39.611 +0300 [error] [benchmark_io 785] poll: Operation canceled
+2017-01-04 03:32:39.611 +0300 [error] [benchmark_io 788] poll: Operation canceled
+2017-01-04 03:32:39.612 +0300 [error] [benchmark_io 802] poll: Operation canceled
+2017-01-04 03:32:39.612 +0300 [error] [benchmark_io 808] poll: Operation canceled
+2017-01-04 03:32:39.612 +0300 [error] [benchmark_io 816] poll: Operation canceled
+2017-01-04 03:32:39.612 +0300 [error] [benchmark_io 817] poll: Operation canceled
+2017-01-04 03:32:39.612 +0300 [error] [benchmark_io 818] poll: Operation canceled
+2017-01-04 03:32:39.613 +0300 [error] [benchmark_io 819] poll: Operation canceled
+2017-01-04 03:32:39.614 +0300 [error] [benchmark_io 820] poll: Operation canceled
+2017-01-04 03:32:39.615 +0300 [error] [benchmark_io 821] poll: Operation canceled
+2017-01-04 03:32:39.615 +0300 [error] [benchmark_io 822] poll: Operation canceled
+2017-01-04 03:32:39.615 +0300 [error] [benchmark_io 823] poll: Operation canceled
+2017-01-04 03:32:39.615 +0300 [error] [benchmark_io 824] poll: Operation canceled
+2017-01-04 03:32:39.616 +0300 [error] [benchmark_io 825] poll: Operation canceled
+2017-01-04 03:32:39.616 +0300 [error] [benchmark_io 826] poll: Operation canceled
+2017-01-04 03:32:39.618 +0300 [error] [benchmark_io 827] poll: Operation canceled
+2017-01-04 03:32:39.620 +0300 [error] [benchmark_io 828] poll: Operation canceled
+2017-01-04 03:32:39.621 +0300 [error] [benchmark_io 829] poll: Operation canceled
+2017-01-04 03:32:39.621 +0300 [error] [benchmark_io 830] poll: Operation canceled
+2017-01-04 03:32:39.621 +0300 [error] [benchmark_io 831] poll: Operation canceled
+2017-01-04 03:32:39.621 +0300 [error] [benchmark_io 832] poll: Operation canceled
+2017-01-04 03:32:39.621 +0300 [error] [benchmark_io 833] poll: Operation canceled
+2017-01-04 03:32:39.621 +0300 [error] [benchmark_io 834] poll: Operation canceled
+2017-01-04 03:32:39.622 +0300 [error] [benchmark_io 835] poll: Operation canceled
+2017-01-04 03:32:39.622 +0300 [error] [benchmark_io 836] poll: Operation canceled
+2017-01-04 03:32:39.622 +0300 [error] [benchmark_io 837] poll: Operation canceled
+2017-01-04 03:32:39.623 +0300 [error] [benchmark_io 838] poll: Operation canceled
+2017-01-04 03:32:39.625 +0300 [error] [benchmark_io 839] poll: Operation canceled
+2017-01-04 03:32:39.625 +0300 [error] [benchmark_io 840] poll: Operation canceled
+2017-01-04 03:32:39.625 +0300 [error] [benchmark_io 841] poll: Operation canceled
+2017-01-04 03:32:39.625 +0300 [error] [benchmark_io 843] poll: Operation canceled
+2017-01-04 03:32:39.626 +0300 [error] [benchmark_io 844] poll: Operation canceled
+2017-01-04 03:32:39.626 +0300 [error] [benchmark_io 842] poll: Operation canceled
+2017-01-04 03:32:39.626 +0300 [error] [benchmark_io 845] poll: Operation canceled
+2017-01-04 03:32:39.629 +0300 [error] [benchmark_io 846] poll: Operation canceled
+2017-01-04 03:32:39.629 +0300 [error] [benchmark_io 847] poll: Operation canceled
+2017-01-04 03:32:39.629 +0300 [error] [benchmark_io 848] poll: Operation canceled
+2017-01-04 03:32:39.629 +0300 [error] [benchmark_io 849] poll: Operation canceled
+2017-01-04 03:32:39.630 +0300 [error] [benchmark_io 850] poll: Operation canceled
+2017-01-04 03:32:39.630 +0300 [error] [benchmark_io 851] poll: Operation canceled
+2017-01-04 03:32:39.630 +0300 [error] [benchmark_io 852] poll: Operation canceled
+2017-01-04 03:32:39.630 +0300 [error] [benchmark_io 853] poll: Operation canceled
+2017-01-04 03:32:39.630 +0300 [error] [benchmark_io 854] poll: Operation canceled
+2017-01-04 03:32:39.631 +0300 [error] [benchmark_io 855] poll: Operation canceled
+2017-01-04 03:32:39.631 +0300 [error] [benchmark_io 856] poll: Operation canceled
+2017-01-04 03:32:39.631 +0300 [error] [benchmark_io 857] poll: Operation canceled
+2017-01-04 03:32:39.631 +0300 [error] [benchmark_io 858] poll: Operation canceled
+2017-01-04 03:32:39.632 +0300 [error] [benchmark_io 859] poll: Operation canceled
+2017-01-04 03:32:39.632 +0300 [error] [benchmark_io 860] poll: Operation canceled
+2017-01-04 03:32:39.632 +0300 [error] [benchmark_io 861] poll: Operation canceled
+2017-01-04 03:32:39.632 +0300 [error] [benchmark_io 862] poll: Operation canceled
+2017-01-04 03:32:39.640 +0300 [error] [benchmark_io 863] poll: Operation canceled
+2017-01-04 03:32:39.640 +0300 [error] [benchmark_io 864] poll: Operation canceled
+2017-01-04 03:32:39.640 +0300 [error] [benchmark_io 865] poll: Operation canceled
+2017-01-04 03:32:39.640 +0300 [error] [benchmark_io 866] poll: Operation canceled
+2017-01-04 03:32:39.641 +0300 [error] [benchmark_io 869] poll: Operation canceled
+2017-01-04 03:32:39.641 +0300 [error] [benchmark_io 871] poll: Operation canceled
+2017-01-04 03:32:39.641 +0300 [error] [benchmark_io 873] poll: Operation canceled
+2017-01-04 03:32:39.641 +0300 [error] [benchmark_io 876] poll: Operation canceled
+2017-01-04 03:32:39.646 +0300 [error] [benchmark_io 878] poll: Operation canceled
+2017-01-04 03:32:39.646 +0300 [error] [benchmark_io 879] poll: Operation canceled
+2017-01-04 03:32:39.646 +0300 [error] [benchmark_io 881] poll: Operation canceled
+2017-01-04 03:32:39.647 +0300 [error] [benchmark_io 882] poll: Operation canceled
+2017-01-04 03:32:39.647 +0300 [error] [benchmark_io 883] poll: Operation canceled
+2017-01-04 03:32:39.647 +0300 [error] [benchmark_io 884] poll: Operation canceled
+2017-01-04 03:32:39.647 +0300 [error] [benchmark_io 885] poll: Operation canceled
+2017-01-04 03:32:39.647 +0300 [error] [benchmark_io 886] poll: Operation canceled
+2017-01-04 03:32:39.647 +0300 [error] [benchmark_io 888] poll: Operation canceled
+2017-01-04 03:32:39.648 +0300 [error] [benchmark_io 889] poll: Operation canceled
+2017-01-04 03:32:39.648 +0300 [error] [benchmark_io 890] poll: Operation canceled
+2017-01-04 03:32:39.648 +0300 [error] [benchmark_io 892] poll: Operation canceled
+2017-01-04 03:32:39.656 +0300 [error] [benchmark_io 894] poll: Operation canceled
+2017-01-04 03:32:39.658 +0300 [error] [benchmark_io 895] poll: Operation canceled
+2017-01-04 03:32:39.659 +0300 [error] [benchmark_io 896] poll: Operation canceled
+2017-01-04 03:32:39.659 +0300 [error] [benchmark_io 898] poll: Operation canceled
+2017-01-04 03:32:39.659 +0300 [error] [benchmark_io 899] poll: Operation canceled
+2017-01-04 03:32:39.659 +0300 [error] [benchmark_io 903] poll: Operation canceled
+2017-01-04 03:32:39.659 +0300 [error] [benchmark_io 908] poll: Operation canceled
+2017-01-04 03:32:39.659 +0300 [error] [benchmark_io 914] poll: Operation canceled
+2017-01-04 03:32:39.659 +0300 [error] [benchmark_io 917] poll: Operation canceled
+2017-01-04 03:32:39.660 +0300 [error] [benchmark_io 918] poll: Operation canceled
+2017-01-04 03:32:39.660 +0300 [error] [benchmark_io 921] poll: Operation canceled
+2017-01-04 03:32:39.660 +0300 [error] [benchmark_io 922] poll: Operation canceled
+2017-01-04 03:32:39.660 +0300 [error] [benchmark_io 933] poll: Operation canceled
+2017-01-04 03:32:39.660 +0300 [error] [benchmark_io 936] poll: Operation canceled
+2017-01-04 03:32:39.660 +0300 [error] [benchmark_io 942] poll: Operation canceled
+2017-01-04 03:32:39.660 +0300 [error] [benchmark_io 945] poll: Operation canceled
+2017-01-04 03:32:39.669 +0300 [error] [benchmark_io 947] poll: Operation canceled
+2017-01-04 03:32:39.670 +0300 [error] [benchmark_io 950] poll: Operation canceled
+2017-01-04 03:32:39.670 +0300 [error] [benchmark_io 951] poll: Operation canceled
+2017-01-04 03:32:39.670 +0300 [error] [benchmark_io 953] poll: Operation canceled
+2017-01-04 03:32:39.670 +0300 [error] [benchmark_io 954] poll: Operation canceled
+2017-01-04 03:32:39.671 +0300 [error] [benchmark_io 955] poll: Operation canceled
+2017-01-04 03:32:39.674 +0300 [error] [benchmark_io 957] poll: Operation canceled
+2017-01-04 03:32:39.675 +0300 [error] [benchmark_io 956] poll: Operation canceled
+2017-01-04 03:32:39.675 +0300 [error] [benchmark_io 958] poll: Operation canceled
+2017-01-04 03:32:39.675 +0300 [error] [benchmark_io 960] poll: Operation canceled
+2017-01-04 03:32:39.675 +0300 [error] [benchmark_io 961] poll: Operation canceled
+2017-01-04 03:32:39.675 +0300 [error] [benchmark_io 963] poll: Operation canceled
+2017-01-04 03:32:39.676 +0300 [error] [benchmark_io 964] poll: Operation canceled
+2017-01-04 03:32:39.677 +0300 [error] [benchmark_io 965] poll: Operation canceled
+2017-01-04 03:32:39.677 +0300 [error] [benchmark_io 967] poll: Operation canceled
+2017-01-04 03:32:39.677 +0300 [error] [benchmark_io 969] poll: Operation canceled
+2017-01-04 03:32:39.677 +0300 [error] [benchmark_io 968] poll: Operation canceled
+2017-01-04 03:32:39.677 +0300 [error] [benchmark_io 970] poll: Operation canceled
+2017-01-04 03:32:39.678 +0300 [error] [benchmark_io 972] poll: Operation canceled
+2017-01-04 03:32:39.678 +0300 [error] [benchmark_io 974] poll: Operation canceled
+2017-01-04 03:32:39.679 +0300 [error] [benchmark_io 975] poll: Operation canceled
+2017-01-04 03:32:39.679 +0300 [error] [benchmark_io 980] poll: Operation canceled
+2017-01-04 03:32:39.679 +0300 [error] [benchmark_io 981] poll: Operation canceled
+2017-01-04 03:32:39.679 +0300 [error] [benchmark_io 986] poll: Operation canceled
+2017-01-04 03:32:39.681 +0300 [error] [benchmark_io 987] poll: Operation canceled
+2017-01-04 03:32:39.681 +0300 [error] [benchmark_io 989] poll: Operation canceled
+2017-01-04 03:32:39.681 +0300 [error] [benchmark_io 990] poll: Operation canceled
+2017-01-04 03:32:39.681 +0300 [error] [benchmark_io 991] poll: Operation canceled
+2017-01-04 03:32:39.682 +0300 [error] [benchmark_io 992] poll: Operation canceled
+2017-01-04 03:32:39.682 +0300 [error] [benchmark_io 994] poll: Operation canceled
+2017-01-04 03:32:39.682 +0300 [error] [benchmark_io 995] poll: Operation canceled
+2017-01-04 03:32:39.683 +0300 [error] [benchmark_io 997] poll: Operation canceled
+2017-01-04 03:32:39.685 +0300 [error] [benchmark_io 998] poll: Operation canceled
+2017-01-04 03:32:39.686 +0300 [error] [benchmark_io 002] poll: Operation canceled
+2017-01-04 03:32:39.686 +0300 [error] [benchmark_io 003] poll: Operation canceled
+2017-01-04 03:32:39.686 +0300 [error] [benchmark_io 006] poll: Operation canceled
+2017-01-04 03:32:39.687 +0300 [error] [benchmark_io 007] poll: Operation canceled
+2017-01-04 03:32:39.689 +0300 [error] [benchmark_io 008] poll: Operation canceled
+2017-01-04 03:32:39.691 +0300 [error] [benchmark_io 010] poll: Operation canceled
+2017-01-04 03:32:39.692 +0300 [error] [benchmark_io 015] poll: Operation canceled
+2017-01-04 03:32:39.693 +0300 [error] [benchmark_io 018] poll: Operation canceled
+2017-01-04 03:32:39.694 +0300 [error] [benchmark_io 019] poll: Operation canceled
+2017-01-04 03:32:39.694 +0300 [error] [benchmark_io 021] poll: Operation canceled
+2017-01-04 03:32:39.694 +0300 [error] [benchmark_io 023] poll: Operation canceled
+2017-01-04 03:32:39.695 +0300 [error] [benchmark_io 025] poll: Operation canceled
+2017-01-04 03:32:39.696 +0300 [error] [benchmark_io 038] poll: Operation canceled
+2017-01-04 03:32:39.696 +0300 [error] [benchmark_io 039] poll: Operation canceled
+2017-01-04 03:32:39.696 +0300 [error] [benchmark_io 054] poll: Operation canceled
+2017-01-04 03:32:39.696 +0300 [error] [benchmark_io 057] poll: Operation canceled
+2017-01-04 03:32:39.697 +0300 [error] [benchmark_io 061] poll: Operation canceled
+2017-01-04 03:32:39.697 +0300 [error] [benchmark_io 069] poll: Operation canceled
+2017-01-04 03:32:39.697 +0300 [error] [benchmark_io 076] poll: Operation canceled
+2017-01-04 03:32:39.697 +0300 [error] [benchmark_io 077] poll: Operation canceled
+2017-01-04 03:32:39.697 +0300 [error] [benchmark_io 087] poll: Operation canceled
+2017-01-04 03:32:39.697 +0300 [error] [benchmark_io 090] poll: Operation canceled
+2017-01-04 03:32:39.698 +0300 [error] [benchmark_io 102] poll: Operation canceled
+2017-01-04 03:32:39.699 +0300 [error] [benchmark_io 104] poll: Operation canceled
+2017-01-04 03:32:39.700 +0300 [error] [benchmark_io 103] poll: Operation canceled
+2017-01-04 03:32:39.702 +0300 [error] [benchmark_io 105] poll: Operation canceled
+2017-01-04 03:32:39.706 +0300 [error] [benchmark_io 106] poll: Operation canceled
+2017-01-04 03:32:39.707 +0300 [error] [benchmark_io 109] poll: Operation canceled
+2017-01-04 03:32:39.707 +0300 [error] [benchmark_io 114] poll: Operation canceled
+2017-01-04 03:32:39.707 +0300 [error] [benchmark_io 113] poll: Operation canceled
+2017-01-04 03:32:39.707 +0300 [error] [benchmark_io 115] poll: Operation canceled
+2017-01-04 03:32:39.708 +0300 [error] [benchmark_io 121] poll: Operation canceled
+2017-01-04 03:32:39.708 +0300 [error] [benchmark_io 122] poll: Operation canceled
+2017-01-04 03:32:39.708 +0300 [error] [benchmark_io 131] poll: Operation canceled
+2017-01-04 03:32:39.708 +0300 [error] [benchmark_io 133] poll: Operation canceled
+2017-01-04 03:32:39.709 +0300 [error] [benchmark_io 134] poll: Operation canceled
+2017-01-04 03:32:39.709 +0300 [error] [benchmark_io 137] poll: Operation canceled
+2017-01-04 03:32:39.709 +0300 [error] [benchmark_io 138] poll: Operation canceled
+2017-01-04 03:32:39.710 +0300 [error] [benchmark_io 140] poll: Operation canceled
+2017-01-04 03:32:39.710 +0300 [error] [benchmark_io 141] poll: Operation canceled
+2017-01-04 03:32:39.711 +0300 [error] [benchmark_io 143] poll: Operation canceled
+2017-01-04 03:32:39.711 +0300 [error] [benchmark_io 144] poll: Operation canceled
+2017-01-04 03:32:39.711 +0300 [error] [benchmark_io 146] poll: Operation canceled
+2017-01-04 03:32:39.712 +0300 [error] [benchmark_io 147] poll: Operation canceled
+2017-01-04 03:32:39.713 +0300 [error] [benchmark_io 148] poll: Operation canceled
+2017-01-04 03:32:39.713 +0300 [error] [benchmark_io 149] poll: Operation canceled
+2017-01-04 03:32:39.713 +0300 [error] [benchmark_io 151] poll: Operation canceled
+2017-01-04 03:32:39.713 +0300 [error] [benchmark_io 152] poll: Operation canceled
+2017-01-04 03:32:39.714 +0300 [error] [benchmark_io 155] poll: Operation canceled
+2017-01-04 03:32:39.714 +0300 [error] [benchmark_io 157] poll: Operation canceled
+2017-01-04 03:32:39.714 +0300 [error] [benchmark_io 158] poll: Operation canceled
+2017-01-04 03:32:39.714 +0300 [error] [benchmark_io 160] poll: Operation canceled
+2017-01-04 03:32:39.715 +0300 [error] [benchmark_io 163] poll: Operation canceled
+2017-01-04 03:32:39.716 +0300 [error] [benchmark_io 165] poll: Operation canceled
+2017-01-04 03:32:39.721 +0300 [error] [benchmark_io 166] poll: Operation canceled
+2017-01-04 03:32:39.722 +0300 [error] [benchmark_io 167] poll: Operation canceled
+2017-01-04 03:32:39.725 +0300 [error] [benchmark_io 168] poll: Operation canceled
+2017-01-04 03:32:39.727 +0300 [error] [benchmark_io 169] poll: Operation canceled
+2017-01-04 03:32:39.727 +0300 [error] [benchmark_io 170] poll: Operation canceled
+2017-01-04 03:32:39.728 +0300 [error] [benchmark_io 171] poll: Operation canceled
+2017-01-04 03:32:39.728 +0300 [error] [benchmark_io 194] poll: Operation canceled
+2017-01-04 03:32:39.728 +0300 [error] [benchmark_io 196] poll: Operation canceled
+2017-01-04 03:32:39.728 +0300 [error] [benchmark_io 206] poll: Operation canceled
+2017-01-04 03:32:39.729 +0300 [error] [benchmark_io 216] poll: Operation canceled
+2017-01-04 03:32:39.729 +0300 [error] [benchmark_io 217] poll: Operation canceled
+2017-01-04 03:32:39.730 +0300 [error] [benchmark_io 221] poll: Operation canceled
+2017-01-04 03:32:39.730 +0300 [error] [benchmark_io 223] poll: Operation canceled
+2017-01-04 03:32:39.731 +0300 [error] [benchmark_io 224] poll: Operation canceled
+2017-01-04 03:32:39.731 +0300 [error] [benchmark_io 228] poll: Operation canceled
+2017-01-04 03:32:39.731 +0300 [error] [benchmark_io 240] poll: Operation canceled
+2017-01-04 03:32:39.731 +0300 [error] [benchmark_io 242] poll: Operation canceled
+2017-01-04 03:32:39.731 +0300 [error] [benchmark_io 245] poll: Operation canceled
+2017-01-04 03:32:39.732 +0300 [error] [benchmark_io 252] poll: Operation canceled
+2017-01-04 03:32:39.732 +0300 [error] [benchmark_io 256] poll: Operation canceled
+2017-01-04 03:32:39.732 +0300 [error] [benchmark_io 263] poll: Operation canceled
+2017-01-04 03:32:39.737 +0300 [error] [benchmark_io 267] poll: Operation canceled
+2017-01-04 03:32:39.737 +0300 [error] [benchmark_io 268] poll: Operation canceled
+2017-01-04 03:32:39.738 +0300 [error] [benchmark_io 275] poll: Operation canceled
+2017-01-04 03:32:39.738 +0300 [error] [benchmark_io 273] poll: Operation canceled
+2017-01-04 03:32:39.738 +0300 [error] [benchmark_io 285] poll: Operation canceled
+2017-01-04 03:32:39.738 +0300 [error] [benchmark_io 290] poll: Operation canceled
+2017-01-04 03:32:39.738 +0300 [error] [benchmark_io 298] poll: Operation canceled
+2017-01-04 03:32:39.738 +0300 [error] [benchmark_io 327] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 329] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 370] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 332] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 380] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 397] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 182] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 412] poll: Operation canceled
+2017-01-04 03:32:39.739 +0300 [error] [benchmark_io 213] poll: Operation canceled
+2017-01-04 03:32:39.740 +0300 [error] [benchmark_io 214] poll: Operation canceled
+2017-01-04 03:32:39.748 +0300 [error] [benchmark_io 710] poll: Operation canceled
+2017-01-04 03:32:39.748 +0300 [error] [benchmark_io 083] poll: Operation canceled
+2017-01-04 03:32:39.749 +0300 [error] [benchmark_io 099] poll: Operation canceled
+2017-01-04 03:32:39.749 +0300 [error] [benchmark_io 535] poll: Operation canceled
+2017-01-04 03:32:39.752 +0300 [error] [benchmark_io 108] poll: Operation canceled
+2017-01-04 03:32:39.752 +0300 [error] [benchmark_io 542] poll: Operation canceled
+2017-01-04 03:32:39.752 +0300 [error] [benchmark_io 745] poll: Operation canceled
+2017-01-04 03:32:39.752 +0300 [error] [benchmark_io 551] poll: Operation canceled
+2017-01-04 03:32:39.752 +0300 [error] [benchmark_io 757] poll: Operation canceled
+2017-01-04 03:32:39.756 +0300 [error] [benchmark_io 560] poll: Operation canceled
+2017-01-04 03:32:39.756 +0300 [error] [benchmark_io 569] poll: Operation canceled
+2017-01-04 03:32:39.756 +0300 [error] [benchmark_io 769] poll: Operation canceled
+2017-01-04 03:32:39.757 +0300 [error] [benchmark_io 778] poll: Operation canceled
+2017-01-04 03:32:39.757 +0300 [error] [benchmark_io 575] poll: Operation canceled
+2017-01-04 03:32:39.757 +0300 [error] [benchmark_io 781] poll: Operation canceled
+2017-01-04 03:32:39.757 +0300 [error] [benchmark_io 782] poll: Operation canceled
+2017-01-04 03:32:39.757 +0300 [error] [benchmark_io 172] poll: Operation canceled
+2017-01-04 03:32:39.757 +0300 [error] [benchmark_io 792] poll: Operation canceled
+2017-01-04 03:32:39.758 +0300 [error] [benchmark_io 794] poll: Operation canceled
+2017-01-04 03:32:39.758 +0300 [error] [benchmark_io 799] poll: Operation canceled
+2017-01-04 03:32:39.758 +0300 [error] [benchmark_io 255] poll: Operation canceled
+2017-01-04 03:32:39.758 +0300 [error] [benchmark_io 257] poll: Operation canceled
+2017-01-04 03:32:39.758 +0300 [error] [benchmark_io 606] poll: Operation canceled
+2017-01-04 03:32:39.759 +0300 [error] [benchmark_io 211] connect: Operation canceled
+2017-01-04 03:32:39.759 +0300 [error] [benchmark_io 283] poll: Operation canceled
+2017-01-04 03:32:39.759 +0300 [error] [benchmark_io 281] poll: Operation canceled
+2017-01-04 03:32:39.759 +0300 [error] [benchmark_io 814] connect: Operation canceled
+2017-01-04 03:32:39.759 +0300 [error] [benchmark_io 815] connect: Operation canceled
+2017-01-04 03:32:39.759 +0300 [error] [benchmark_io 611] poll: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 612] poll: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 294] poll: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 022] connect: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 297] connect: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 868] connect: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 874] poll: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 053] poll: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 369] poll: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 385] poll: Operation canceled
+2017-01-04 03:32:39.760 +0300 [error] [benchmark_io 393] poll: Operation canceled
+2017-01-04 03:32:39.761 +0300 [error] [benchmark_io 913] poll: Operation canceled
+2017-01-04 03:32:39.761 +0300 [error] [benchmark_io 915] poll: Operation canceled
+2017-01-04 03:32:39.776 +0300 [error] [benchmark_io 916] poll: Operation canceled
+2017-01-04 03:32:39.776 +0300 [error] [benchmark_io 404] poll: Operation canceled
+2017-01-04 03:32:39.776 +0300 [error] [benchmark_io 429] poll: Operation canceled
+2017-01-04 03:32:39.777 +0300 [error] [benchmark_io 199] poll: Operation canceled
+2017-01-04 03:32:39.777 +0300 [error] [benchmark_io 458] poll: Operation canceled
+2017-01-04 03:32:39.777 +0300 [error] [benchmark_io 265] poll: Operation canceled
+2017-01-04 03:32:39.777 +0300 [error] [benchmark_io 467] poll: Operation canceled
+2017-01-04 03:32:39.777 +0300 [error] [benchmark_io 466] poll: Operation canceled
+2017-01-04 03:32:39.778 +0300 [error] [benchmark_io 477] poll: Operation canceled
+2017-01-04 03:32:39.778 +0300 [error] [benchmark_io 532] poll: Operation canceled
+2017-01-04 03:32:39.779 +0300 [error] [benchmark_io 556] poll: Operation canceled
+2017-01-04 03:32:39.780 +0300 [error] [benchmark_io 582] poll: Operation canceled
+2017-01-04 03:32:39.780 +0300 [error] [benchmark_io 383] poll: Operation canceled
+2017-01-04 03:32:39.780 +0300 [error] [benchmark_io 584] poll: Operation canceled
+2017-01-04 03:32:39.780 +0300 [error] [benchmark_io 590] poll: Operation canceled
+2017-01-04 03:32:39.780 +0300 [error] [benchmark_io 610] poll: Operation canceled
+2017-01-04 03:32:39.781 +0300 [error] [benchmark_io 623] poll: Operation canceled
+2017-01-04 03:32:39.781 +0300 [error] [benchmark_io 625] poll: Operation canceled
+2017-01-04 03:32:39.782 +0300 [error] [benchmark_io 431] poll: Operation canceled
+2017-01-04 03:32:39.783 +0300 [error] [benchmark_io 633] poll: Operation canceled
+2017-01-04 03:32:39.786 +0300 [error] [benchmark_io 442] poll: Operation canceled
+2017-01-04 03:32:39.787 +0300 [error] [benchmark_io 443] poll: Operation canceled
+2017-01-04 03:32:39.787 +0300 [error] [benchmark_io 648] poll: Operation canceled
+2017-01-04 03:32:39.787 +0300 [error] [benchmark_io 649] poll: Operation canceled
+2017-01-04 03:32:39.788 +0300 [error] [benchmark_io 653] poll: Operation canceled
+2017-01-04 03:32:39.788 +0300 [error] [benchmark_io 432] poll: Operation canceled
+2017-01-04 03:32:39.788 +0300 [error] [benchmark_io 485] poll: Operation canceled
+2017-01-04 03:32:39.788 +0300 [error] [benchmark_io 486] poll: Operation canceled
+2017-01-04 03:32:39.790 +0300 [error] [benchmark_io 692] poll: Operation canceled
+2017-01-04 03:32:39.791 +0300 [error] [benchmark_io 493] poll: Operation canceled
+2017-01-04 03:32:39.792 +0300 [error] [benchmark_io 703] poll: Operation canceled
+2017-01-04 03:32:39.793 +0300 [error] [benchmark_io 706] poll: Operation canceled
+2017-01-04 03:32:39.796 +0300 [error] [benchmark_io 707] poll: Operation canceled
+2017-01-04 03:32:39.796 +0300 [error] [benchmark_io 711] poll: Operation canceled
+2017-01-04 03:32:39.796 +0300 [error] [benchmark_io 512] poll: Operation canceled
+2017-01-04 03:32:39.797 +0300 [error] [benchmark_io 201] poll: Operation canceled
+2017-01-04 03:32:39.798 +0300 [error] [benchmark_io 514] poll: Operation canceled
+2017-01-04 03:32:39.798 +0300 [error] [benchmark_io 471] poll: Operation canceled
+2017-01-04 03:32:39.799 +0300 [error] [benchmark_io 717] poll: Operation canceled
+2017-01-04 03:32:39.799 +0300 [error] [benchmark_io 024] poll: Operation canceled
+2017-01-04 03:32:39.808 +0300 [error] [benchmark_io 036] poll: Operation canceled
+2017-01-04 03:32:39.808 +0300 [error] [benchmark_io 045] poll: Operation canceled
+2017-01-04 03:32:39.809 +0300 [error] [benchmark_io 047] poll: Operation canceled
+2017-01-04 03:32:39.810 +0300 [error] [benchmark_io 048] poll: Operation canceled
+2017-01-04 03:32:39.812 +0300 [error] [benchmark_io 052] connect: Operation canceled
+2017-01-04 03:32:39.812 +0300 [error] [benchmark_io 521] connect: Operation canceled
+2017-01-04 03:32:39.812 +0300 [error] [benchmark_io 725] connect: Operation canceled
+2017-01-04 03:32:39.813 +0300 [error] [benchmark_io 055] connect: Operation canceled
+2017-01-04 03:32:39.813 +0300 [error] [benchmark_io 056] connect: Operation canceled
+2017-01-04 03:32:39.813 +0300 [error] [benchmark_io 058] poll: Operation canceled
+2017-01-04 03:32:39.813 +0300 [error] [benchmark_io 731] poll: Operation canceled
+2017-01-04 03:32:39.813 +0300 [error] [benchmark_io 531] connect: Operation canceled
+2017-01-04 03:32:39.814 +0300 [error] [benchmark_io 074] connect: Operation canceled
+2017-01-04 03:32:39.814 +0300 [error] [benchmark_io 080] poll: Operation canceled
+2017-01-04 03:32:39.814 +0300 [error] [benchmark_io 117] poll: Operation canceled
+2017-01-04 03:32:39.816 +0300 [error] [benchmark_io 092] poll: Operation canceled
+2017-01-04 03:32:39.835 +0300 [error] [benchmark_io 562] poll: Operation canceled
+2017-01-04 03:32:39.836 +0300 [error] [benchmark_io 124] poll: Operation canceled
+2017-01-04 03:32:39.837 +0300 [error] [benchmark_io 541] poll: Operation canceled
+2017-01-04 03:32:39.838 +0300 [error] [benchmark_io 750] poll: Operation canceled
+2017-01-04 03:32:39.840 +0300 [error] [benchmark_io 550] poll: Operation canceled
+2017-01-04 03:32:39.841 +0300 [error] [benchmark_io 552] poll: Operation canceled
+2017-01-04 03:32:39.841 +0300 [error] [benchmark_io 928] poll: Operation canceled
+2017-01-04 03:32:39.842 +0300 [error] [benchmark_io 507] poll: Operation canceled
+2017-01-04 03:32:39.857 +0300 [error] [benchmark_io 508] poll: Operation canceled
+2017-01-04 03:32:39.858 +0300 [error] [benchmark_io 509] poll: Operation canceled
+2017-01-04 03:32:39.858 +0300 [error] [benchmark_io 929] poll: Operation canceled
+2017-01-04 03:32:39.861 +0300 [error] [benchmark_io 128] poll: Operation canceled
+2017-01-04 03:32:39.861 +0300 [error] [benchmark_io 511] poll: Operation canceled
+2017-01-04 03:32:39.862 +0300 [error] [benchmark_io 756] poll: Operation canceled
+2017-01-04 03:32:39.862 +0300 [error] [benchmark_io 930] poll: Operation canceled
+2017-01-04 03:32:39.862 +0300 [error] [benchmark_io 130] poll: Operation canceled
+2017-01-04 03:32:39.862 +0300 [error] [benchmark_io 704] poll: Operation canceled
+2017-01-04 03:32:39.862 +0300 [error] [benchmark_io 758] poll: Operation canceled
+2017-01-04 03:32:39.863 +0300 [error] [benchmark_io 931] poll: Operation canceled
+2017-01-04 03:32:39.863 +0300 [error] [benchmark_io 932] poll: Operation canceled
+2017-01-04 03:32:39.863 +0300 [error] [benchmark_io 759] poll: Operation canceled
+2017-01-04 03:32:39.865 +0300 [error] [benchmark_io 760] poll: Operation canceled
+2017-01-04 03:32:39.865 +0300 [error] [benchmark_io 934] poll: Operation canceled
+2017-01-04 03:32:39.881 +0300 [error] [benchmark_io 761] poll: Operation canceled
+2017-01-04 03:32:39.881 +0300 [error] [benchmark_io 561] poll: Operation canceled
+2017-01-04 03:32:39.891 +0300 [error] [benchmark_io 136] poll: Operation canceled
+2017-01-04 03:32:39.891 +0300 [error] [benchmark_io 766] poll: Operation canceled
+2017-01-04 03:32:39.891 +0300 [error] [benchmark_io 568] poll: Operation canceled
+2017-01-04 03:32:39.891 +0300 [error] [benchmark_io 937] poll: Operation canceled
+2017-01-04 03:32:39.892 +0300 [error] [benchmark_io 212] poll: Operation canceled
+2017-01-04 03:32:39.892 +0300 [error] [benchmark_io 905] poll: Operation canceled
+2017-01-04 03:32:39.893 +0300 [error] [benchmark_io 417] poll: Operation canceled
+2017-01-04 03:32:39.894 +0300 [error] [benchmark_io 433] poll: Operation canceled
+2017-01-04 03:32:39.894 +0300 [error] [benchmark_io 241] poll: Operation canceled
+2017-01-04 03:32:39.895 +0300 [error] [benchmark_io 984] poll: Operation canceled
+2017-01-04 03:32:39.895 +0300 [error] [benchmark_io 988] poll: Operation canceled
+2017-01-04 03:32:39.895 +0300 [error] [benchmark_io 513] poll: Operation canceled
+2017-01-04 03:32:39.896 +0300 [error] [benchmark_io 517] poll: Operation canceled
+2017-01-04 03:32:39.896 +0300 [error] [benchmark_io 342] poll: Operation canceled
+2017-01-04 03:32:39.897 +0300 [error] [benchmark_io 553] poll: Operation canceled
+2017-01-04 03:32:39.898 +0300 [error] [benchmark_io 559] connect: Operation canceled
+2017-01-04 03:32:39.898 +0300 [error] [benchmark_io 359] connect: Operation canceled
+2017-01-04 03:32:39.898 +0300 [error] [benchmark_io 232] connect: Operation canceled
+2017-01-04 03:32:39.899 +0300 [error] [benchmark_io 004] connect: Operation canceled
+2017-01-04 03:32:39.899 +0300 [error] [benchmark_io 566] poll: Operation canceled
+2017-01-04 03:32:39.915 +0300 [error] [benchmark_io 005] connect: Operation canceled
+2017-01-04 03:32:39.916 +0300 [error] [benchmark_io 331] connect: Operation canceled
+2017-01-04 03:32:39.916 +0300 [error] [benchmark_io 011] connect: Operation canceled
+2017-01-04 03:32:39.916 +0300 [error] [benchmark_io 012] connect: Operation canceled
+2017-01-04 03:32:39.917 +0300 [error] [benchmark_io 013] connect: Operation canceled
+2017-01-04 03:32:39.917 +0300 [error] [benchmark_io 244] connect: Operation canceled
+2017-01-04 03:32:39.921 +0300 [error] [benchmark_io 573] poll: Operation canceled
+2017-01-04 03:32:39.922 +0300 [error] [benchmark_io 381] connect: Operation canceled
+2017-01-04 03:32:39.923 +0300 [error] [benchmark_io 581] connect: Operation canceled
+2017-01-04 03:32:39.924 +0300 [error] [benchmark_io 390] connect: Operation canceled
+2017-01-04 03:32:39.924 +0300 [error] [benchmark_io 020] poll: Operation canceled
+2017-01-04 03:32:39.929 +0300 [error] [benchmark_io 277] poll: Operation canceled
+2017-01-04 03:32:39.930 +0300 [error] [benchmark_io 413] poll: Operation canceled
+2017-01-04 03:32:39.930 +0300 [error] [benchmark_io 414] poll: Operation canceled
+2017-01-04 03:32:39.930 +0300 [error] [benchmark_io 618] poll: Operation canceled
+2017-01-04 03:32:39.932 +0300 [error] [benchmark_io 646] poll: Operation canceled
+2017-01-04 03:32:39.933 +0300 [error] [benchmark_io 647] poll: Operation canceled
+2017-01-04 03:32:39.933 +0300 [error] [benchmark_io 875] poll: Operation canceled
+2017-01-04 03:32:39.943 +0300 [error] [benchmark_io 262] poll: Operation canceled
+2017-01-04 03:32:39.945 +0300 [error] [benchmark_io 041] poll: Operation canceled
+2017-01-04 03:32:39.945 +0300 [error] [benchmark_io 891] poll: Operation canceled
+2017-01-04 03:32:39.945 +0300 [error] [benchmark_io 893] poll: Operation canceled
+2017-01-04 03:32:39.945 +0300 [error] [benchmark_io 066] poll: Operation canceled
+2017-01-04 03:32:39.946 +0300 [error] [benchmark_io 068] poll: Operation canceled
+2017-01-04 03:32:39.946 +0300 [error] [benchmark_io 461] poll: Operation canceled
+2017-01-04 03:32:39.946 +0300 [error] [benchmark_io 462] poll: Operation canceled
+2017-01-04 03:32:39.948 +0300 [error] [benchmark_io 348] poll: Operation canceled
+2017-01-04 03:32:39.948 +0300 [error] [benchmark_io 901] poll: Operation canceled
+2017-01-04 03:32:39.948 +0300 [error] [benchmark_io 328] poll: Operation canceled
+2017-01-04 03:32:39.948 +0300 [error] [benchmark_io 668] poll: Operation canceled
+2017-01-04 03:32:39.948 +0300 [error] [benchmark_io 468] poll: Operation canceled
+2017-01-04 03:32:39.949 +0300 [error] [benchmark_io 355] poll: Operation canceled
+2017-01-04 03:32:39.949 +0300 [error] [benchmark_io 902] poll: Operation canceled
+2017-01-04 03:32:39.949 +0300 [error] [benchmark_io 357] poll: Operation canceled
+2017-01-04 03:32:39.959 +0300 [error] [benchmark_io 472] poll: Operation canceled
+2017-01-04 03:32:39.959 +0300 [error] [benchmark_io 473] poll: Operation canceled
+2017-01-04 03:32:39.960 +0300 [error] [benchmark_io 656] poll: Operation canceled
+2017-01-04 03:32:39.967 +0300 [error] [benchmark_io 436] poll: Operation canceled
+2017-01-04 03:32:39.981 +0300 [error] [benchmark_io 679] poll: Operation canceled
+2017-01-04 03:32:39.981 +0300 [error] [benchmark_io 203] poll: Operation canceled
+2017-01-04 03:32:39.982 +0300 [error] [benchmark_io 195] poll: Operation canceled
+2017-01-04 03:32:39.982 +0300 [error] [benchmark_io 029] poll: Operation canceled
+2017-01-04 03:32:39.982 +0300 [error] [benchmark_io 030] poll: Operation canceled
+2017-01-04 03:32:39.983 +0300 [error] [benchmark_io 034] poll: Operation canceled
+2017-01-04 03:32:39.983 +0300 [error] [benchmark_io 730] connect: Operation canceled
+2017-01-04 03:32:39.985 +0300 [error] [benchmark_io 065] connect: Operation canceled
+2017-01-04 03:32:39.986 +0300 [error] [benchmark_io 135] connect: Operation canceled
+2017-01-04 03:32:39.987 +0300 [error] [benchmark_io 530] poll: Operation canceled
+2017-01-04 03:32:39.987 +0300 [error] [benchmark_io 070] connect: Operation canceled
+2017-01-04 03:32:39.990 +0300 [error] [benchmark_io 071] connect: Operation canceled
+2017-01-04 03:32:39.991 +0300 [error] [benchmark_io 072] connect: Operation canceled
+2017-01-04 03:32:39.995 +0300 [error] [benchmark_io 732] connect: Operation canceled
+2017-01-04 03:32:39.995 +0300 [error] [benchmark_io 073] connect: Operation canceled
+2017-01-04 03:32:39.998 +0300 [error] [benchmark_io 075] connect: Operation canceled
+2017-01-04 03:32:39.998 +0300 [error] [benchmark_io 533] connect: Operation canceled
+2017-01-04 03:32:39.998 +0300 [error] [benchmark_io 078] connect: Operation canceled
+2017-01-04 03:32:40.001 +0300 [error] [benchmark_io 079] poll: Operation canceled
+2017-01-04 03:32:40.004 +0300 [error] [benchmark_io 367] connect: Operation canceled
+2017-01-04 03:32:40.019 +0300 [error] [benchmark_io 081] connect: Operation canceled
+2017-01-04 03:32:40.019 +0300 [error] [benchmark_io 082] connect: Operation canceled
+2017-01-04 03:32:40.020 +0300 [error] [benchmark_io 084] connect: Operation canceled
+2017-01-04 03:32:40.024 +0300 [error] [benchmark_io 119] poll: Operation canceled
+2017-01-04 03:32:40.027 +0300 [error] [benchmark_io 207] poll: Operation canceled
+2017-01-04 03:32:40.030 +0300 [error] [benchmark_io 924] poll: Operation canceled
+2017-01-04 03:32:40.033 +0300 [error] [benchmark_io 925] poll: Operation canceled
+2017-01-04 03:32:40.033 +0300 [error] [benchmark_io 093] poll: Operation canceled
+2017-01-04 03:32:40.034 +0300 [error] [benchmark_io 430] poll: Operation canceled
+2017-01-04 03:32:40.034 +0300 [error] [benchmark_io 266] poll: Operation canceled
+2017-01-04 03:32:40.037 +0300 [error] [benchmark_io 278] poll: Operation canceled
+2017-01-04 03:32:40.040 +0300 [error] [benchmark_io 505] poll: Operation canceled
+2017-01-04 03:32:40.040 +0300 [error] [benchmark_io 307] poll: Operation canceled
+2017-01-04 03:32:40.054 +0300 [error] [benchmark_io 754] poll: Operation canceled
+2017-01-04 03:32:40.054 +0300 [error] [benchmark_io 558] poll: Operation canceled
+2017-01-04 03:32:40.055 +0300 [error] [benchmark_io 302] poll: Operation canceled
+2017-01-04 03:32:40.055 +0300 [error] [benchmark_io 219] poll: Operation canceled
+2017-01-04 03:32:40.055 +0300 [error] [benchmark_io 640] poll: Operation canceled
+2017-01-04 03:32:40.056 +0300 [error] [benchmark_io 639] poll: Operation canceled
+2017-01-04 03:32:40.056 +0300 [error] [benchmark_io 570] poll: Operation canceled
+2017-01-04 03:32:40.056 +0300 [error] [benchmark_io 762] poll: Operation canceled
+2017-01-04 03:32:40.057 +0300 [error] [benchmark_io 773] poll: Operation canceled
+2017-01-04 03:32:40.059 +0300 [error] [benchmark_io 940] poll: Operation canceled
+2017-01-04 03:32:40.063 +0300 [error] [benchmark_io 459] poll: Operation canceled
+2017-01-04 03:32:40.065 +0300 [error] [benchmark_io 909] poll: Operation canceled
+2017-01-04 03:32:40.065 +0300 [error] [benchmark_io 580] poll: Operation canceled
+2017-01-04 03:32:40.066 +0300 [error] [benchmark_io 946] poll: Operation canceled
+2017-01-04 03:32:40.066 +0300 [error] [benchmark_io 585] poll: Operation canceled
+2017-01-04 03:32:40.067 +0300 [error] [benchmark_io 910] poll: Operation canceled
+2017-01-04 03:32:40.075 +0300 [error] [benchmark_io 948] poll: Operation canceled
+2017-01-04 03:32:40.076 +0300 [error] [benchmark_io 791] poll: Operation canceled
+2017-01-04 03:32:40.076 +0300 [error] [benchmark_io 181] poll: Operation canceled
+2017-01-04 03:32:40.077 +0300 [error] [benchmark_io 793] poll: Operation canceled
+2017-01-04 03:32:40.077 +0300 [error] [benchmark_io 153] poll: Operation canceled
+2017-01-04 03:32:40.077 +0300 [error] [benchmark_io 208] poll: Operation canceled
+2017-01-04 03:32:40.080 +0300 [error] [benchmark_io 601] poll: Operation canceled
+2017-01-04 03:32:40.081 +0300 [error] [benchmark_io 154] poll: Operation canceled
+2017-01-04 03:32:40.081 +0300 [error] [benchmark_io 156] poll: Operation canceled
+2017-01-04 03:32:40.081 +0300 [error] [benchmark_io 795] poll: Operation canceled
+2017-01-04 03:32:40.082 +0300 [error] [benchmark_io 796] poll: Operation canceled
+2017-01-04 03:32:40.091 +0300 [error] [benchmark_io 959] poll: Operation canceled
+2017-01-04 03:32:40.092 +0300 [error] [benchmark_io 797] poll: Operation canceled
+2017-01-04 03:32:40.092 +0300 [error] [benchmark_io 800] poll: Operation canceled
+2017-01-04 03:32:40.092 +0300 [error] [benchmark_io 801] poll: Operation canceled
+2017-01-04 03:32:40.092 +0300 [error] [benchmark_io 962] poll: Operation canceled
+2017-01-04 03:32:40.093 +0300 [error] [benchmark_io 159] poll: Operation canceled
+2017-01-04 03:32:40.093 +0300 [error] [benchmark_io 161] poll: Operation canceled
+2017-01-04 03:32:40.099 +0300 [error] [benchmark_io 162] poll: Operation canceled
+2017-01-04 03:32:40.099 +0300 [error] [benchmark_io 680] poll: Operation canceled
+2017-01-04 03:32:40.099 +0300 [error] [benchmark_io 600] poll: Operation canceled
+2017-01-04 03:32:40.099 +0300 [error] [benchmark_io 190] poll: Operation canceled
+2017-01-04 03:32:40.099 +0300 [error] [benchmark_io 191] poll: Operation canceled
+2017-01-04 03:32:40.100 +0300 [error] [benchmark_io 682] poll: Operation canceled
+2017-01-04 03:32:40.105 +0300 [error] [benchmark_io 683] poll: Operation canceled
+2017-01-04 03:32:40.106 +0300 [error] [benchmark_io 193] poll: Operation canceled
+2017-01-04 03:32:40.106 +0300 [error] [benchmark_io 189] poll: Operation canceled
+2017-01-04 03:32:40.106 +0300 [error] [benchmark_io 687] poll: Operation canceled
+2017-01-04 03:32:40.106 +0300 [error] [benchmark_io 690] poll: Operation canceled
+2017-01-04 03:32:40.106 +0300 [error] [benchmark_io 233] poll: Operation canceled
+2017-01-04 03:32:40.106 +0300 [error] [benchmark_io 449] poll: Operation canceled
+2017-01-04 03:32:40.107 +0300 [error] [benchmark_io 695] poll: Operation canceled
+2017-01-04 03:32:40.107 +0300 [error] [benchmark_io 230] poll: Operation canceled
+2017-01-04 03:32:40.107 +0300 [error] [benchmark_io 543] poll: Operation canceled
+2017-01-04 03:32:40.107 +0300 [error] [benchmark_io 696] poll: Operation canceled
+2017-01-04 03:32:40.107 +0300 [error] [benchmark_io 966] poll: Operation canceled
+2017-01-04 03:32:40.107 +0300 [error] [benchmark_io 971] poll: Operation canceled
+2017-01-04 03:32:40.110 +0300 [info] [] Exit
