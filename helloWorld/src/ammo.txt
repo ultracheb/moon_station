@@ -1,0 +1,4 @@
+GET /rooms
+GET /rooms/9
+PUT /rooms/8 "{\"oxygen_amount\": \"0.7\"}"
+PUT /rooms/desired/7 "{\"oxygen_amount\": \"0.7\"}"
